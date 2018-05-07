@@ -1,0 +1,35 @@
+.nor-btn {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    box-sizing: content-box;
+    /*box-sizing: border-box;*/
+}
+a.nor-btn:hover,
+a.nor-btn:active,
+a.nor-btn:focus{
+    color: #fff;
+}
+
+a.tel-btn:hover, a.tel-btn:focus {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+.fbottom>.nor-btn {
+    width: 100% !important;
+    border-radius: 0;
+    opacity: 0.95;
+}
+.ftop>.nor-btn {
+    width: 100% !important;
+    border-radius: 0;
+    opacity: 0.95;
+}

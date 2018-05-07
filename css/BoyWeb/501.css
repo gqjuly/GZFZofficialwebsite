@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10002.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+#JianJieBook{
+	width: 1020px;
+	height: 1350px;
+	margin:0 auto;
+	position: relative;
+}
+#JianJieBook .Img{
+	width: 550px;
+	position: absolute;
+	top: 50px;
+}
+#JianJieBook p{
+		text-indent: 50px;
+		position: absolute;
+		font-size: 18px;
+		font-family: 微软雅黑;
+}
+#JianJieBook .P1{
+	width: 485px;
+	top: 315px;
+	left:537px;
+
+}
+#JianJieBook .P2{
+	width: 1020px;
+	top:440px;
+}
+#JianJieBook .P3{
+	top: 530px;
+}
+#JianJieBook .P4{
+	top: 610px;
+}
+#JianJieBook .P6{
+	top: 690px;
+}
+#JianJieBook .P5{
+	top: 660px;
+	font-weight: 700;
+}
+#JianJieBook .P7{
+	top: 900px;
+	font-weight: 700;
+}
+#JianJieBook .P8{
+	top: 950px;
+}
+#JianJieBook .Parna{
+	position: absolute;
+	top: 560px;
+}

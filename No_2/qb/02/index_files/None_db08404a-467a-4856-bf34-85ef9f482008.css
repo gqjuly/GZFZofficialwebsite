@@ -1,0 +1,239 @@
+body{margin:0px;}
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font-family:'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;color: #333333;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#333333;}
+a:visited{color:#333333;}
+a:hover{color:#333333;}
+a:active{color:#333333;}
+.body_notMax,.body_notMax body,.body_notMax .g-doc{height:100%!important;}
+.g-doc{position:relative;}
+.m-topHead{width:100%;border-bottom:1px #e9e9e9 solid;}
+.m-headMenu{position: absolute;height:100%;transform:translateY(-100%);-webkit-transform:translateY(-100%);left:0px;width:100%;z-index:-1;background:url(http://www1.pclady.com.cn/global/2015/wap/images_i/ladyIndex/navBg.jpg) no-repeat;-webkit-background-size:100%;background-size:100%;overflow:hidden;}
+.m-headMenu table{width:100%; border-collapse:collapse;border:none;}
+.m-headMenu td{width:25%;height:58.88px;font-size:15.04px;text-align: center;position: relative;}
+.m-headMenu td,.m-headMenu th{border:none;}
+.m-headMenu td a{color:#fff;position: relative;height:100%;display: block;}
+.m-headMenu td em{position: absolute;left:50%;top:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
+.m-headMenu td:before{content:"";display: block;border: 1px dotted #fff;border-width:0 1px 1px 0;width:100%;height:100%;position: absolute;top:0px;left:0px;opacity:0.3;}
+.m-headMenu td:nth-child(4n) a{border-right:0px;}
+.m-headNav{height:51.52px;background-color:#fff;position: relative;z-index:1;}
+
+.m-hdTop-user-img{width:24.96px;height:24.96px;display:block;background-color:#fff;}
+.m-hdTop-user-img img{display:block;width:24.96px;height:24.96px;border-radius:24.96px;}
+.m-message-tips:after{content: "";width: 7px;height: 7px;border-radius: 3px;background: #fb3a3a;display: block;position: absolute;right: 0px;top: 1px;}
+.m-headNav .aLogo{width:107px;height:22px;background-image:url(logo2016.png);-webkit-background-size:107px;background-size:107px;background-repeat:no-repeat;position:absolute;left:50%;top:50%;margin:-11px 0 0 -54px}
+.m-headNav .sMenu{width:23.36px;height:23.36px;position: absolute;left:14.08px;top:16.96px;position: absolute;background:url(http://www.weiweibi.com/pconline/top_left.png) no-repeat;-webkit-background-size:23.36px;background-size:23.36px;z-index:5;}
+.m-headNav .m-hdTop-user{width:24.96spx;height:24.96px;position: absolute;right:12.48px;top:12.48px;background:url(http://www.weiweibi.com/pconline/top_right.png) no-repeat;-webkit-background-size:24.96px;background-size:24.96px;}
+.showMenu{position: relative;}
+.showMenu .m-headNav 
+.menu-animate {transform:translateY(0%);-webkit-transform:translateY(0%);transition:transform 0.6s ease-in-out 0s;-webkit-transition:-webkit-transform 0.6s ease-in-out 0s;}
+.menu-animate-two {transform:translateY(-100%);-webkit-transform:translateY(-100%);transition:transform 0.6s ease-in-out 0s;-webkit-transition:-webkit-transform 0.6s ease-in-out 0s;}
+.m-nav {height: 44px;background: #FFF;border-top: 1px solid #a6a6a6;border-bottom: 1px solid #E9E9E9;padding-right: 12px;}
+.m-nav a {width: 17%;float: left;color: #999;line-height: 42px;text-align: center;overflow: hidden;font-size: 16px;border-bottom: 2px solid #fff;}
+.m-nav a.cur {color: #333;border-bottom: 3px solid #333;}
+.m-nav a.mdCourse{width: 24%;float: right;background: url(course-logo.png) no-repeat right 8px;background-size: 72px;text-indent: -9999px;}
+.m-nav a.logo{width: 72px;background: url(logo.png) no-repeat center left;background-size: 72px;}
+.m-article h2{margin-bottom:12px;font-weight:bold;font-size:26px;line-height:35px;word-wrap:break-word;word-break:break-all;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+.m-article {
+    padding: 20px 0;
+    margin: 0 10px;
+}
+.m-reply-w {
+    zoom: 1;
+}
+.daodu {font-size: 15px;line-height: 24px;margin: 12px 12px 25px;background-color: #eee;padding: 7px 5px 6px 10px;word-wrap: break-word;word-break: break-all;position: relative;}
+.daodu p{   max-height:208px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;}
+.daodu p font{position: absolute;
+    display: block;
+    background-color: #ff0000;
+    color: #fff;
+    width: 40px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;}
+	.artEdit{padding:8px;background: #f2f2f2;}
+.editAbout{padding:21px 25px;background: #fff;position: relative;}
+.editAbout .pic-txt:after{content:"\20"; clear:both; height:0; display:block; overflow:hidden;} 
+.editAbout .pic-txt {width:100%;zoom:1;}
+.editAbout .pic-txt .edit-pic {float:left; margin:10px 25px 0 0; _margin-right:22px;position: relative;}
+.editAbout .pic-txt .edit-pic span{width: 70px;height: 70px;overflow: hidden;display: block;}
+.editAbout .pic-txt .edit-pic img{border-radius: 120px;}
+.editAbout .pic-txt .txt-area {line-height:22px;zoom:1; /*overflow:hidden;*/}
+.editAbout .pic-txt .edit-pic-bg{width:133px;height:139px;background: url(artPic.png) no-repeat;position: absolute;left: 0;top: -19px;z-index: 2;}
+.editAbout .pic-txt .txt-area span,.editAbout .pic-txt .txt-area a{display: block;}
+.editAbout .pic-txt .jobName{height:22px;line-height:22px;overflow:hidden;margin-bottom:10px;font-size: 18px;}
+.editAbout .pic-txt .jobName em{margin-left: 8px;}
+.editAbout .pic-txt .sum{height: 94px;line-height: 22px;overflow: hidden;}
+.editAbout .pic-txt .txt-area .askWx{height:42px;line-height:42px;margin-top:15px;padding:0 12px 0 12px;display:inline-block;background-position: -362px -136px;border: 1px solid #e0e0e0;position: relative;}
+.editAbout .pic-txt .txt-area .askWx .ma{display: block;position: absolute;left: -14px;top: 44px;display: none;}
+.editAbout .pic-txt .txt-area .askWx:hover .ma{display: block;}
+
+.editAbout .artFeel{width:100%;margin-top:20px;}
+.editAbout .feelFace{margin:22px -25px 0 0;overflow:hidden}
+.editAbout .feelFace a{width:50px;height:50px;margin-right:25px;display: block;float: left;}
+.editAbout .feelFace span{width:50px;height:50px;display: block;}
+.editAbout .feelFace .zan{margin-left:5px;}
+.editAbout .feelFace .zan span{background-position: 0 0;}
+.editAbout .feelFace .yiban span{background-position: -75px 0;}
+.editAbout .feelFace .buhao span{background-position: -150px 0;}
+.editAbout .feelFace .zan:hover span,.editAbout .feelFace .zan .cur{background-position: 0 -56px;}
+.editAbout .feelFace .yiban:hover span,.editAbout .feelFace .yiban .cur{background-position: -76px -56px;}
+.editAbout .feelFace .buhao:hover span,.editAbout .feelFace .buhao .cur{background-position: -151px -56px;}
+.artEdit .artRight{padding: 20px 20px 10px 20px;}
+.keyMode{margin: 20px 0 0px;height: 30px;overflow: hidden;}
+.keyWord{width:100%;height:29px;float: left;overflow: hidden;    padding-left: 10px;}
+.keyWord a{/*width: 81px;*/height: 29px;line-height: 29px;padding:0 10px;background: #f2f2f2;display: inline-block;color: #888;text-align: center;margin-right: 10px;border-radius: 3px;}
+.bdsharebuttonbox{    overflow: hidden;    text-align: center;    margin: auto;}
+.bdsharebuttonbox a{width: 30px!important;height: 29px!important;padding:0!important;margin:0px 8px 8px 0!important;background: url(http://www.weiweibi.com/pconline/art2016.png) no-repeat!important;}
+.bdsharebuttonbox .bds_tsina{background-position: -36px -109px!important;}
+.bdsharebuttonbox .bds_tqq{background-position: -108px -109px!important;}
+.bdsharebuttonbox .bds_qzone{background-position: -72px -109px!important;}
+.bdsharebuttonbox .bds_weixin{background-position: 0px -109px!important;}
+.jpReduce{padding:19px;border: 1px solid #ececec;position: relative;}
+.col-ab-tit{width:100%;font-size: 26px;text-align: center;position: absolute;left: 0;top: -11px;}
+.col-ab-tit span{padding:0 20px;background: #fff;}
+.jpList ul{margin-right: -20px;}
+.jpList li{width: 230px;height:170px;margin:20px 20px 0 0;overflow: hidden;}
+.jpList li a{width: 230px;height:170px;overflow: hidden;display: block;}
+.jpList .little .title-alpha{font-size: 14px;}
+.jpList li .video-icon{width:48px;height:48px;position:absolute;top:50%;left:50%;margin:-24px 0 0 -24px;background:url(http://www1.pclady.com.cn/global/2013/images_i/art/video.png) no-repeat;z-index:20;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www1.pclady.com.cn/global/2013/images_i/art/video.png',sizingMethod='crop');}
+i,em { font-style: normal;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more {
+    float: left;
+    font-size: 12px;
+    padding-left: 17px;
+    line-height: 16px;
+    height: 16px;
+    background-image: url(../img/share/icons_0_16.png?v=91362611.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 6px 6px 6px 0;
+}
+.fs-18 {
+    font-size: 18px!important;
+}
+
+.main{width:100%; min-width:320px; max-width:640px; margin:0 auto;box-sizing:border-box; overflow:hidden;}
+.main > *{font-size: 16;}
+@media screen and (min-width:320px){.main{font-size:14px;}}
+@media screen and (min-width:400px){.main{font-size:18px;}}
+@media screen and (min-width:480px){.main{font-size:22px;}}
+@media screen and (min-width:560px){.main{font-size:24px;}}
+@media screen and (min-width:640px){.main{font-size:28px;}}
+.guide-nav,.artInfo .pubTime,.artInfo .source,.artInfo .author,.editAbout .feelFace a span,.topList5 li,.guide a,.col-c .active .c-Title span,.hotPet .pet-list dt i,.guide a.wxMa .s_ma em{background: url(http://www.weiweibi.com/pconline/art2016.png) no-repeat;}
+.main h1{margin:0.7em 0 0.7em 0;font-size: 25px;}
+.main h2{margin:0.7em 0 0.7em 0;font-size: 22px; text-align:center;}
+p {
+    color: #5E5E5E;
+	font-size:16px;
+    line-height: 26px;
+    margin-top: 1em;
+	padding:0px 10px;
+	
+
+}
+.index-bd {
+    margin: 0px 0.8em;
+    padding: 0.4em 0px;
+}
+.rq{height: 3em;padding-bottom:1em; }
+.rq em{
+    font-style: normal;float:left;font-size:18px;
+}
+.rq font{font-size:18px;font-style: normal;}
+
+.dy{border: 0.2em solid #cccccc;padding: 1em;}
+.dy .dyimg img{width:18%;}
+.bg-b{ background-color:#40a6ed; text-align:center;padding-top: 0.5em; padding-bottom: 0.5em;color:#FFFFFF;margin-top: 0.3em;}
+.bg-red{ background-color:#FF0000;color:#FFFFFF;text-align: left; padding:0.5em; margin-bottom: 1.2em;font-size:16px;}
+.red{color:#FF0000;font-weight:normal;}
+
+
+.red3{color:#FF0000;font-weight:normal;margin-top:2em;}
+.bg-h{ background-color:#000000; text-align:center;padding-top: 0.5em; padding-bottom: 0.5em;color:#FFFFFF}
+.title{overflow:hidden;width:20em;border-bottom: 0.2em solid red; margin-top:2em;}
+.title img{float:left;}
+.title1{float:left;color: red; font-size: 20px;padding-left:0.2em;}
+.line{border-top:0.2em dotted #FF0000;height:0.2em;margin-top: 0.2em; margin-bottom:0.2em;}
+.wximg{ text-align:center;margin-top: 2em;margin-bottom: 2em;}
+.wximg img{width:100%;}
+.wxlx1{width:25.7em;margin:0 auto;margin-top: 1.5em;}
+.wxlx1 div img{width:100%;}
+.wxlx{ border-left: 0.26em solid #eb6100; border-right: 0.26em solid #eb6100;padding-left: 0.8em;font-size:20px; }
+.altp{ text-align:center;}
+.altp img{width:100%;}
+.qqzx{border: 0.2em solid red;width:80%; text-align:center; margin:0 auto;}
+.qqzx .qqzx1{padding:0.5em}
+.qqzx img{width:2em;}
+.qqzx2{border: 0.2em solid red; margin-top:2em;}
+.qqzx2 p{padding:0 1em 0 1em;}
+.wxh img{width:80%;}
+
+#BizQQWPA,#BizQQWPA1{cursor: pointer;}
+.bg-b{ background-color:#40a6ed; text-align:center;padding-top: 0.5em; padding-bottom: 0.5em;color:#FFFFFF;margin-top: 0.3em;  }
+.artInfo .pubTime{background-position: -384px -32px;}
+.guide-nav,.artInfo .pubTime,.artInfo .source,.artInfo .author,.editAbout .pic-txt .txt-area .askWx,.editAbout .feelFace a span,.topList5 li,.guide a,.col-c .active .c-Title span,.hotPet .pet-list dt i,.guide a.wxMa .s_ma em{background: url(http://www.weiweibi.com/pconline/art2016.png) no-repeat;background-position: -384px -32px;}
+.artInfo span {
+    margin-right: 25px;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer{text-align:center;}
+.footer a{color:#777;}
+.footer a:visited{color:#777;}
+.footer p{margin:12px 0 0;}
+.footer .pTit-1{color:#bebebe;font-size:14px;margin:0 8px 0;padding-top:12px;}
+.footer .pTit-1 a{margin:0 10px;color:#777;}
+.footer .pTit-1 a:visited{color:#777;}
+.footer .pTit-1 em{margin:0 10px;color:#cc6698;font-style:normal;}
+.footer .pTit-2>a{display:inline-block;background:#f5f5f5;border:1px solid #d5d5d5;padding:5px 10px;border-radius:2px;margin:0 5px;font-size:14px;}
+.footer .pTit-2 .s1{display:inline-block;background:#f5f5f5;border:1px solid #d5d5d5;padding:5px 10px;border-radius:2px;margin:0 5px;font-size:14px;color:#777;}
+.footer .pTit-2 .s1 em{color:#206bc0;cursor:pointer;}
+.footer .pTit-3{color:#999;font-size:14px;}
+.footer .pTit-4{width:100%;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flexbox;color:#333;font-size:13px;}
+.footer .pTit-4 span{display:block;-moz-box-flex:1;-webkit-box-flex:1;-ms-flex:1;flex:1;margin:0 1px 0 0;text-align:center;padding:0 0 4px;}
+.footer .pTit-4 .s-online{border-bottom:3px solid #127ed9;}
+.footer .pTit-4 .s-auto{border-bottom:3px solid #ff6702;}
+.footer .pTit-4 .s-games{border-bottom:3px solid #cc0202;}
+.footer .pTit-4 .s-lady{border-bottom:3px solid #e5187e;}
+.footer .pTit-4 .s-baby{border-bottom:3px solid #ffc119;}
+.footer .pTit-4 .s-house{border-bottom:3px solid #77c111;}
+.footer em.icon-group-small{display:none;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeBAMAAADePCNYAAAAMFBMVEUAAAAREREiIiIzMzNERERVVVVmZmYtpuDYM2TtcZfu4mb2owD1sgb5/Pz///8PDw+UDwLBAAAAEHRSTlP///////////////////8A4CNdGQAAAAlwSFlzAAALEwAACxMBAJqcGAAAALNJREFUGNNt0DEOwjAMBVDfuhPqGuACtegJUiJ2nBMEV50LinoDZgpUwW5KB8SXEj39yTakNfDD52nlMXz5Zu4WEjNnvpSdcmLy4kF48xcvfZtg0k7fAM1M+Vo4EHFoiKgFlMZa+Rzgns7WNhSEhqzEWweV2YnCdSbWzO6u3CJyiPEqRMTaxRgt9MIqamASmo1ogNSjMYVQhzTCIuqQ6aEs80LKZbfRaJmXr4r1DmP571A5H9mP9bOXkWlwAAAAAElFTkSuQmCC) no-repeat;background-size:10px;width:10px;height:15px;vertical-align:top;margin-right:2px;}
+.toTop-btn{display:none;width:30px;height:30px;position:fixed;bottom:55px;right:5px;cursor:pointer;z-index:10;}
+.toTop-btn::before{content:'';position:absolute;left:0;top:0;width:30px;height:30px;background:#333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAMFBMVEUAAAAREREiIiIzMzNERERVVVVmZmZ3d3eJiYmampqrq6u8vLzNzc3///////8PDw/fWdWlAAAAEHRSTlP///////////////////8A4CNdGQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAF9JREFUKM/t00sOwCAIBFDuf0cyJzH2IyiIadVuy/JtYCaB8mBoHhOHwQJubE8YIHPEcyECXmt7vC9Dh+VCjxIBDjWMxZoVBlvuhqYUVLQVKbr2IOjbfMKX43/M9O0RDuq09vv7zSGlAAAAAElFTkSuQmCC) no-repeat 5px 5px;background-size:20px;border-radius:3px;}
+/*2016摩登课堂app*/
+.fb-mdktApp{width:100%;height:53px;line-height:53px;text-align: center;position:relative;z-index:55;bottom:0px;background: rgba(0,0,0,0.8);display: none;}
+.fb-mdktApp a{width:100%;height:100%;display: block;color: #fff;text-align: center;}
+.fb-mdktApp .d_logo{margin:0;background: url(http://www1.pclady.com.cn/global/20160809/images/mdxyApp/enterIcon/mdktLogo.png) no-repeat;-webkit-background-size: 213px;background-size: 213px;display: block;width: 213px;height: 53px;position: absolute;left: 31px;top: 0px;}
+.fb-mdktApp .d_btn{position: absolute;right: 5px;top: 50%;-webkit-transform: translate(0%, -50%);transform: translate(0%, -50%);}
+.fb-mdktApp .d_ios_btn{width:87px;height:28px;background: url(http://www1.pclady.com.cn/global/20160809/images/mdxyApp/enterIcon/dBtn.png) no-repeat; -webkit-background-size: 87px;background-size: 87px;display:block;position: relative;text-indent: -9999px;padding: 0;border-radius:0;}
+.fb-mdktApp .d_ios_btn:after{content: "";width:0px;height:0px;display:inline-block;background: none;}
+.fb-mdktApp .close{width:28px;height:28px;display:block;position: absolute;left: 3px;top: 13px;z-index: 101;}
+.fb-mdktApp .close-btn{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAElBMVEUAAAD///////////////////8+Uq06AAAABXRSTlMAmoUOhm0w1YEAAABeSURBVBjTXdHbCQAhDETRSQf+bAXbgT1YQOy/GGFELozgIxxREzUl2q81iGqrmvAb7g/bA3hH0BPIXM0RoFegGbxshI0wSBib46i4KJ4BwqSQCUb6WRzQAFqi7PEpB6ugDQGRlhaGAAAAAElFTkSuQmCC) no-repeat;-webkit-background-size:14px;background-size:14px;width: 14px;height: 14px;display: block;margin: 7px 5px 0 4px;}
+.fb-mdktApp .tip{font-size: 12px;color: #ffe97a;position: absolute;right: 28px;top: 18px;}
+.fb-mdktApp-fixed{position: fixed;z-index: 100;}
+/*2016悦选app*/
+.fb-ios2017{width:100%;height:53px;line-height:53px;text-align: center;position:relative;z-index:55;bottom:0px;background:#d1eaf1;display: none;}
+.fb-ios2017 a{width:100%;height:100%;display: block;color: #fff;text-align: center;}
+.fb-ios2017 .d_logo{margin:0;background: url(http://www1.pclady.com.cn/global/2016/wap/images/choice0727.png) no-repeat;background-size: 189px;display: block;width: 189px;height: 53px;position: absolute;left: 31px;top: -4px;}
+.fb-ios2017 .d_btn{position: absolute;right: 5px;top: 0;font-size:14px;}
+.fb-ios2017 .d_ios_btn{width:75px;height:32px;padding:0 5px;line-height:32px;background:#d4002d;color: #fff;font-weight: bold; border-radius: 0px;display: inline-block;position: relative;}
+.fb-ios2017 .close{width:28px;height:28px;display:block;position: absolute;left:3px;top: 18px;z-index: 101;}
+.fb-ios2017 .close-btn{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkY2RjdGOEE2NUM0MTFFNkFCNDVDOTdGNzVBMzEwNDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkY2RjdGOEI2NUM0MTFFNkFCNDVDOTdGNzVBMzEwNDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRjZGN0Y4ODY1QzQxMUU2QUI0NUM5N0Y3NUEzMTA0NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRjZGN0Y4OTY1QzQxMUU2QUI0NUM5N0Y3NUEzMTA0NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ppi6CDgAAANHSURBVHjavJhbbAxRGMenu0uUrBVsBCsiJNLGJS6NPiCldal7kUpoEPcnxO1FIoQHD4gg8SA8IHF/qFs0ygYN2rBs2krdK+qSVrBBiVv9v+Q/ycma7c5MZ+Ykv27amU5/851zvu87zcganpupadpKsA/81bwdYXAarAngyykwHWRTqMUjia7gKhgK9voYiR9gufzAI4kQuEKJR2CeiJSDOeAnWA12uSzRCVwGOeAZKABN/nDPiFx8CmrBbDAa+EHUBYmO4BIYA16CPPBWLugiMurAY8rIDb/BLQcl2oNSkA8awHjwSr+oimiMSj2YyV/4Au44JHEOFIJ3YBx4rt6QLCIjznDJTpoIPoKqNkjINJ8As2Qt8AXr/rvJQERGjAKFREL5wKbEUdkV4BMlqg1vTCGiMQoyNZPAVE5Z3IJEBjgEFoIEoxtLadyKiMb18YdvMoMhrTUpcQCsAN8Y1buthi6NiIybDHEe57nGaI6Txh7mpGYwzczuMyOiMacEmWOKwH0mI6OxA2xighTxa2b+gM/CnG9gOdC3YoHBPVvAZkrMBWVmH+6zuAvWcgFmMjmNVa6tB9u4phaAC1YeHLAoIpV5FaOyCFzkbshhjRKJxeCs1X0esJEbpGdZCjowP5SzhrRwlxy3k/V8NrOlvHkJqGQ1le26Exyxm37timgsjiOV75exufJURLblMeaXrey0wvwc4JXIZLaXsmC3c6eI2A3Qizmnn9si+cwhIrGbeUNTMuhtEGESi7glIln1PHfIfrAx6fpXMAXcY0SijJCjIqOYM0TisLT/Kbr9BKt1nGtFXzuOiAxjxx1ib5HuyCF9zARW6WzmmW5tFRnEetEFnAFLmEPSjSbWoidgCJ8RsisykG8TZl0pMSmhj/dc3C/ACEY1aFWkPyV68AHFrKhWRwNlXoNcZZ2ZEumjbL+ocviyO+p5dHjDal3K6t2qSG9wHfQFFcwNzQ4cJ/QTXSM/9VxkKKKm6CoHJdQDnEh8YA97ErRLFunO6cgCD5kLEi4cOauVZxexZfDrIp25IAezMZZG57OLh/CYIlPM1sEvjdF3Hv+C+sncg39LVHLqy3juqRGRX2A+s1+jh/8tquBZaR04+E+AAQAjD8Gn92DIMwAAAABJRU5ErkJggg==) no-repeat;-webkit-background-size:14px;background-size:14px;width: 14px;height: 14px;display: block;margin: 3px 5px 0 4px;}
+.fb-ios2017-fixed{position: fixed;z-index: 100;}
+/*2016医美樱桃帮*/
+.downLoadBox{width: 100%;background: rgba(0,0,0,0.8);color:#fff;font-size:15px;position: fixed;bottom: 0;left: 0;display: none;z-index: 55;}
+.ytbBg{width:55%;margin: -10px 0 10px 22px;}
+a.dw-ytb{width:31%;min-width: 100px;height: 30px;line-height: 30px;font-size: 16px;color:#fff;text-align: center;background: #ee3346;border-radius: 3px;position: absolute;right: 5px;top: 50%;margin-top: -15px;}
+.dwName{margin:10px 0 0 72px;font-size: 17px;}
+.dwTxt{margin-left: 72px;}
+.dwTxt .cred{color: #cb255f;}
+.fullColl-close-l{position: absolute;left: 3px;top: 0;height: 54px;}
+.dytb-close{  width: 16px;height: 16px;font-size: 24px;color: #929292;text-align: center;line-height: 20px;display: block;}
+.loading{padding: 25px 0 22px;}

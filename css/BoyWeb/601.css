@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10003.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+#JianJieBook{
+	width: 1020px;
+	height: 700px;
+	margin:0 auto;
+	position: relative;
+	background: url(../../imges/new/backOne.jpg) no-repeat;
+	position: relative;
+}
+#JianJieBook p{
+	height: 40px;
+	position: absolute;
+	left:80px;
+}
+#JianJieBook p span{
+	font-size: 25px;
+}
+#JianJieBook .p_h1{
+	top:200px;
+}
+#JianJieBook .p_h1 span{
+	font-size: 30px;
+	font-weight: 600;
+}
+#JianJieBook .p_h2{
+	top:300px;
+} 
+#JianJieBook .p_h3{
+	top: 400px;
+}
+#JianJieBook .p_h4{
+	top: 500px;
+}
+#JianJieBook p img{
+	height: 40px;
+}
+#JianJieBook p img{
+	margin-right: 10px;
+	float: left;
+}
+#JianJieBook p span{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}

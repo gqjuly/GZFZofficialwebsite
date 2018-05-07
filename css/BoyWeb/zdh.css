@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#Bodyweb{
+	width: 1020px;
+	height: 1650px;
+	background: #ececec;
+	margin:0 auto;
+}
+#Bodyweb .logo{
+	width: 100%;
+	height: 250px;
+	background: #fff;
+	position: relative;
+}
+#Bodyweb .logo .yjylogoPhone{
+	display: none;
+}
+#Bodyweb .logo img{
+	position: absolute;
+	width: 180px;
+	left:30px;
+	top: 0px;
+}
+#Bodyweb .logo h1{
+	color:#fdd424;
+	font-weight: 400;
+	font-size: 60px;
+	position: absolute;
+	left:200px;
+	top: 45px;
+}
+#Bodyweb .logo h2{
+	font-weight: 400;
+	position: absolute;
+	font-size: 30px;
+	left:290px;
+	top: 130px;
+}
+#Bodyweb .logo p{
+	position: absolute;
+	top: 200px;
+	left:110px;
+}
+#Bodyweb .DaoHangLan{
+	width: 100%;
+	height: 50px;
+	background: #161515
+}
+#Bodyweb .PhoneDaoHang{
+	display: none;
+}
+@font-face{
+	font-family: "幼圆";
+	src:url(../font/youyuan_1.woff);
+	src:url(../font/webfont.woff2);
+	src:url(../font/youyuan.ttf);
+}
+#Bodyweb .DaoHangLan ul li{
+	float: right;
+	list-style: none;
+	color: #fff;
+	height: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 50px;
+	font-size: 17px;
+	font-weight: 300;
+}
+#Bodyweb .DaoHangLan ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 幼圆,微软雅黑;
+}
+#Bodyweb .DaoHangLan ul li a:hover{
+	color: #9b9696;	
+	transition:0.7s;
+}
+#Bodyweb .Look{
+	width: 1020px;
+	height: 1500px;
+	position: relative;
+}
+#Bodyweb .Look div{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+}
+#Bodyweb .Look div img{
+	width: 350px;
+}
+#Bodyweb .Look .ComputA{
+	position: absolute;
+	display: block;
+	width:350px;
+	background: url(../../imges/new/son/06.png) no-repeat;
+	height: 40px;
+	top: 269px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 16px;
+}
+#Bodyweb .Look .ComputA:hover,#Bodyweb .Look .About:hover{
+	color: red;
+}
+#Bodyweb .Look .About{
+	top: 310px;
+	position: absolute;
+	width:350px;
+	background: url(../../imges/new/son/06.png) no-repeat;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#Bodyweb .Look .tel{
+	display: none;
+}
+#Bodyweb .Look .sms{
+	display: none;
+}
+#Bodyweb .Look .AML{
+	top: 70px;
+	left:105px;
+}
+#Bodyweb .Look .SX{
+	top: 70px;
+	left:560px;
+}
+#Bodyweb .Look .FUJ{
+	top: 490px;
+	left:105px;
+}
+#Bodyweb .Look .SL{
+	top: 490px;
+	left:560px;
+}
+#Bodyweb .Look .SMC{
+	top: 910px;
+	left:105px;
+}
+#Bodyweb .Look .CH{
+	top:910px;
+	left:560px;
+}
+#Bodyweb .Phonebottm{
+	display: none;
+}
+#alert{
+	width: 446px;
+	height: 181px;
+	position: fixed;
+	z-index: 100;
+	background: url(../../imges/YJY/alert.png) no-repeat;
+	background-size: 100%;
+	top: 35%;
+	left:35%;
+}
+#alert p{
+	position: absolute;
+	font-size: 16px;
+	top: 60px;
+	left: 20px;
+}
+#alert span{
+	display: block;
+	width: 142px;
+	height: 51px;
+	background: url(../../imges/YJY/input.jpg) no-repeat;
+	position: absolute;
+	top: 110px;
+	left:151px;
+	cursor: pointer;
+}
+#alert span:hover{
+	top: 109px;
+	left:150px;
+}
+#Bottom{
+	width: 1020px;
+	height: 220px;
+	background: #313030;
+	margin:0 auto;
+	border-top: 2px solid #fff;
+}
+#Bottom h3{
+	color: #fff;
+	font-family: 微软雅黑;
+	font-size: 35px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+#Bottom p{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 20px;
+}

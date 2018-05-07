@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+
+#Home_404{
+	width: 740px;
+	height: 490px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#Home_404 .lie{
+	width: 720px;
+	height: 470px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 4;
+	background: #fff;
+}
+#Home_404 img{
+	display: block;
+	height: 300px;
+	margin: 0 auto;
+}
+#Home_404 p{
+	margin-top: 10px;
+	font-size: 17px;
+	color: #333;
+	text-indent: 40px;
+}
+#Home_404 span{
+	font-size: 14px;
+}
+#Home_404 a{
+	color: black;
+}
+#Home_404 h2{
+	width: 140px;
+	margin:  0 auto;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 15px;
+	background: url(../../imges/index.png) no-repeat 0px -278px;
+}
+#Home_404 h2:hover{
+	background: url(../../imges/index.png) no-repeat 0px -338px;
+}
+#red{
+	position: absolute;
+	z-index: 0;
+	width: 940px;
+	height: 260px;
+	left: -100px;
+	background: red;
+	top: 115px;
+}

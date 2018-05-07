@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 页面关键词 -->
+<meta name="keywords" content="昌和自动化设备有限公司,激光设备,自动化设备,国内最好的自动化激光设备公司,激光自动化公司,昌和,中国最大的自动化激光设备公司" />
+
+<!-- 页面详细描述 -->
+<meta name="descripition" content="昌和自动化设备科技有限公司是国内最先进的自动化设备，激光设备的公司，拥有国内先进自动化激光的技术。昌和自动化科技有限公司出售各类多功能，先进的激光设备，自动化设备，各种设备原件。" />
+<title>网站版面内部更新</title>
+<script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<!-- 导入CSS -->
+<link rel="stylesheet" href="../css/BoyWeb/404.css" />
+<!-- 导入JS -->
+ <link href="../favicon.ico" rel="shortcut icon" />
+</head>
+
+<body>
+	<div id="Home_404">
+		<div class="lie">
+				<img src="../imges/logo.jpg" alt="" />
+				<p>尊敬的访客,您好！因网站内部版面正在改版暂时无法进行深入访问,对您造成不便请谅解！感谢您的光临</p>
+				<span>&nbsp&nbsp&nbsp&nbsp Dear visitors, hello! Because the internal page layout is revised temporarily unable to conduct in-depth access to your inconvenience, please forgive me! thank you for coming.</span>
+				<a href="../index.html"><h2>返回首页</h2></a>
+		</div>
+		<div id="red"></div>
+	</div>
+</body>
+<script type="text/javascript">
+	// 捕捉元素
+	var _Home_404=document.getElementById('Home_404');
+	// 获取可视高度
+	var _HeightWindow=document.documentElement.clientHeight;
+	// 取整数
+	var _Hei=parseInt(_HeightWindow);
+	// 获取元素高度
+	var _Heightoffset=_Home_404.offsetHeight;
+	// 获取综合高度
+	var height=(_Hei-_Heightoffset)/2;
+	_Home_404.style.top=height+'px';
+	// 捕捉旋转元素
+	var _Red=document.getElementById('red');
+	// 创建选择事件
+	var cs=0;
+	setInterval(function(){
+		cs++;
+		_Red.style.transform="rotate("+cs+"deg)"
+	},8)
+</script>
+</html>

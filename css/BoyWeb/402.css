@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10004.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+/*新闻头部部分*/
+#New{
+	width: 1020px;
+	padding-bottom: 100px;
+	margin:0 auto;
+	padding-bottom: 75px;
+	position: relative;
+}
+#New .Book{
+	padding-top: 45px;
+	width: 650px;
+	margin-right: 349px;
+}
+#New .Book h1{
+	text-align: center;
+	font-weight: 700;
+	font-family: 微软雅黑;
+}
+#New .Book .Author{
+	font-size: 12px;
+	color: #828384;
+	margin-top: 45px;
+	text-indent: 0em;
+}
+#New .Book p{
+	font-size: 15px;
+	text-indent: 3em;
+	margin-top: 15px;
+}
+#New .Lce{
+	width: 349px;
+	height: 493px;
+	background: url(../../imges/new/Lec.jpg);
+	position: absolute;
+	top: 0px;
+	left:670px;
+}
+#New .Lce p{
+	text-align: center;
+	font-size: 17px;
+	margin-top: 50px;
+}
+#New .Lce .web{
+	margin-top: 185px;
+	font-size: 17px;
+}

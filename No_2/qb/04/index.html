@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link rel="stylesheet" href="./index_files/base_2015.css">
+<link rel="stylesheet" href="./index_files/details.css">
+<link rel="stylesheet" href="./index_files/details.css">
+<link rel="stylesheet" href="./index_files/swiper.css">
+<link rel="stylesheet" href="./index_files/index.css">
+<script src="jquery-1.11.0.min.js"></script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262004868'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1262004868' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript" src="./index_files/jquery.js"></script>
+<script type="text/javascript" src="./index_files/swiper.js"></script>
+<script type="text/javascript" src="./index_files/index.js"></script>
+<script src="weixin.js"></script>
+<meta name="robots" content="noindex">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="format-detection" content="telphone=no">
+<meta name="renderer" content="webkit">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="x5-fullscreen" content="true">
+<meta name="browsermode" content="application">
+<style>
+#page {
+	z-index: 999
+}
+
+.ovf-hidden {
+	overflow: hidden;
+	height: 100%
+}
+
+.blue {
+	color: #29cee9
+}
+
+.red {
+	color: #f22
+}
+
+.ajax-loading {
+	z-index: 2147483647;
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display: none;
+	opacity: .6;
+	filter: alpha(opacity = 60)
+}
+
+.ajax-loading div {
+	margin-top: 23%
+}
+
+.ajax-loading img {
+	width: 50px;
+	height: 50px
+}
+
+ul, li, p, em {
+	list-style-type: none;
+	-webkit-padding-start: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin: 0;
+	padding: 0
+}
+
+div[id^="yht"] *, div[class^="yht"] * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: inherit
+}
+
+.yht-red {
+	color: #FC4E4E
+}
+
+.yht-panel-right {
+	position: fixed;
+	right: 0;
+	bottom: 300px;
+	z-index: 2147483647
+}
+
+.yht-panel-right .yht-hide {
+	display: none
+}
+
+.yht-panel-right a {
+	position: relative;
+	display: inline-block
+}
+
+.yht-panel-right a .close {
+	position: absolute;
+	right: 0;
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	background:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Njk5QUNFNjhGM0U3MTFFNkIyQjVGRDJDQzY2OENDRjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Njk5QUNFNjlGM0U3MTFFNkIyQjVGRDJDQzY2OENDRjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2OTlBQ0U2NkYzRTcxMUU2QjJCNUZEMkNDNjY4Q0NGOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2OTlBQ0U2N0YzRTcxMUU2QjJCNUZEMkNDNjY4Q0NGOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv16ibIAAAEkSURBVHjaVJC/L0NRFMe/97E+NjpIvIGxTYxIMVKNRKT8DxYjEoPRyNJEhMGmwdh2E/EfWCyGiqXmtxE5Pve+1746ud9zz4/vPefc46y2pCCmWdSRnKvhlUAftMEZuQ85ydnGItqtE2yBWKNihnIpxF2MbgQxwbgjEReE0MkX8UZMzBdKItQxmAiEm0ep1sjIdYpdtfIHoePh2OncTBNjMgR/fqX9A2rMS9s8ur2W3t98C3+mxiFND2ds30uVBam6Jj0/SZ2HbKysesmP8TUk1/ek5RXpBWJ1VdpsDIhe+p7cGX7Kt26es6wT7gtpa6f4LNtw7DnBeWWmuEjYaEUvKaFKhOrle0xD+B9nQDTy1ovyZBeUwSX4BN/hNnyzcp7XnwADAO0gVGJsn/VTAAAAAElFTkSuQmCC)
+		no-repeat
+}
+
+.yht-panel-right a .tips {
+	position: absolute;
+	right: 14px;
+	bottom: 22px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjlBMTlCNzlGMjhGMTFFNkFGNzJDMUU5QzcyNTM2NzkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjlBMTlCN0FGMjhGMTFFNkFGNzJDMUU5QzcyNTM2NzkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCOUExOUI3N0YyOEYxMUU2QUY3MkMxRTlDNzI1MzY3OSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCOUExOUI3OEYyOEYxMUU2QUY3MkMxRTlDNzI1MzY3OSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlPVhYUAAACESURBVHjaYvz//z8DFMgDsS4Qi0L5r4H4EhA/AnEYoQpNgdiQAQGEgfgtlH0eiE8zAQk5JEUgBZlAbIWkCSQnD1KohyTIBcTHGTCBLguSm0DgMRBzYlEoysRAJGCC+o4QeA1SeBlN8DuSj2HgMq7gQQbg4GHEEuBiUP4rqG0PQRyAAAMApbkf/hNU998AAAAASUVORK5CYII=)
+		no-repeat
+}
+
+.yht-panel-right a .tips:hover .tip {
+	display: block
+}
+
+.yht-panel-right a .tip {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	width: 60px;
+	font: 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	word-break: break-line;
+	word-wrap: break-word;
+	text-align: center;
+	position: absolute;
+	top: 5px;
+	left: -44px;
+	line-height: 16px;
+	color: #29cee9;
+	padding-top: 9px
+}
+
+.yht-panel-right a .tip .tip-content {
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #29cee9
+}
+
+.yht-panel-right a .tip .tip-content:before, .yht-panel-right a .tip .tip-content:after,
+	.yht-panel-right a .tip .tip-content .before, .yht-panel-right a .tip .tip-content .after
+	{
+	position: absolute;
+	top: -13px;
+	right: 5px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-style: solid;
+	border-color: transparent;
+	border-bottom: 9px solid #29cee9;
+	border-left-width: 9px;
+	border-right-width: 10px
+}
+
+.yht-panel-right a .tip .tip-content:after, .yht-panel-right a .tip .tip-content .after
+	{
+	position: absolute;
+	top: -12px;
+	border-bottom-color: #fff
+}
+
+.yht-panel-right a .tip .tip-content {
+	padding: 3px
+}
+
+.yht-panel-right a .tip {
+	display: none;
+	z-index: 999999
+}
+
+.yht-panel-right a>div {
+	position: absolute;
+	right: 20px;
+	top: -35px
+}
+
+.yht-panel-as {
+	position: fixed;
+	bottom: 20px;
+	left: 0;
+	z-index: 2147483647
+}
+
+.yht-panel-as .yht-hide {
+	display: none
+}
+
+.yht-small-panel-bg {
+	position: relative;
+	display: inline-block
+}
+
+.yht-small-panel-bg img {
+	cursor: pointer
+}
+
+.yht-small-panel-bg .yht-small-panel-close {
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.yht-panel-at {
+	position: relative;
+	font-size: 14px
+}
+
+.yht-panel-at .yht-red-pack {
+	position: absolute;
+	top: -47px;
+	left: 73px
+}
+
+.yht-panel-at .yht-panel-back {
+	position: absolute;
+	top: 105px;
+	right: 6px
+}
+
+.yht-panel-at .yht-read-inpunt {
+	position: absolute;
+	top: 33px;
+	right: 240px;
+	font-family: "Microsoft YaHei", "SimHei", "Arial" !important;
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	color: #de8001
+}
+
+.yht-panel-at .yht-read-inpunt input {
+	line-height: 30px;
+	text-indent: 10px;
+	font-family: "Microsoft YaHei", "SimHei", "Arial" !important
+}
+
+.yht-panel-at .yht-read-inpunt input, .yht-panel-at .yht-read-inpunt button
+	{
+	height: 30px;
+	display: inline-block;
+	border: none;
+	background: #fff
+}
+
+.yht-panel-at .yht-read-inpunt .yht-mobile, .yht-panel-at .yht-read-inpunt button
+	{
+	width: 205px
+}
+
+.yht-panel-at .yht-read-inpunt .yht-mobile {
+	margin-top: 10px
+}
+
+.yht-panel-at .yht-read-inpunt .yht-image {
+	width: 205px;
+	margin: 10px 0
+}
+
+.yht-panel-at .yht-read-inpunt .yht-image a {
+	float: right
+}
+
+.yht-panel-at .yht-read-inpunt .yht-image-code {
+	width: 104px;
+	margin-left: 6px
+}
+
+.yht-panel-at .yht-read-inpunt img {
+	width: 62px;
+	height: 28px;
+	display: inline-block
+}
+
+.yht-panel-at .yht-read-inpunt button {
+	background: #de8001;
+	color: #fff;
+	line-height: 25px;
+	font: 14px "Microsoft YaHei", "SimHei", "Arial" !important;
+	text-indent: 0
+}
+
+.yht-panel-at .yht-read-inpunt button:hover {
+	background: #c57101
+}
+
+.panel-qq-zone {
+	position: fixed;
+	right: 0;
+	bottom: 20px;
+	z-index: 2147483647;
+	box-shadow: 3px 3px 3px #E2E2E2, 2px 2px 0 #333
+}
+
+.panel-qq-zone .yht-hide {
+	display: none
+}
+
+.panel-qq-zone .close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	z-index: 1111;
+	background:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVCAYAAABCIB6VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDg0RjM3MTdGRTIzMTFFNjg5MDFFNzlDOUNGMUQxMDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDg0RjM3MThGRTIzMTFFNjg5MDFFNzlDOUNGMUQxMDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0ODRGMzcxNUZFMjMxMUU2ODkwMUU3OUM5Q0YxRDEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0ODRGMzcxNkZFMjMxMUU2ODkwMUU3OUM5Q0YxRDEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pk/mPTAAAAGpSURBVHjatJXNTsJAEMenFctHKSAQpCj4kagvwAt4N/gsepWjnHkY7voCvoAXD0SjQBERCy2U1tlt0U0ptJI6yTY7s9lfpzv/nXLK4wOg3eK4gXCsgaPOIfgCJy0I12o8Pq4hfLsi4CobSe2fQjwrBybEMgVIl8/c4SoBS2zE0MeQyJcgls77QgVpB8RCGYyp5l6SIu7IuPcM5kwHcfcALPT1obISKsnHMFZeYPL+trQe8dqkffSAUJMI5zjO9hmLSllIykcroSvBFD5EGELFQgVfYqGvBIauBduZd5Fp0sxNYwamOQ8E9QWDc8amMYXU3gn1R69PMB0NfAvLB5GUNZ8zcyOQDH0zXpwpyRTPgupc7bTtGmwKZgu1+Hy120YpVn4L/FdwNIXQ4nKhbClaVOdApdgNDqaZEihelsmg4yFFIj2OZk5U43WJlsDxnAyJXAlUhGoeUFbnVIrFQ9gSYjQJN3jE9gtBTNMs10F/pPjZB35bACGZcS99kX58h5PzkNvmPdFx8x/6cZN3/h6NEKGE1VrcvDqOS/IJRKobwFRnb81hwbcAAwDKH7n8m4BodQAAAABJRU5ErkJggg==)
+		no-repeat
+}
+
+.panel-qq-zone a {
+	position: relative;
+	display: inline-block
+}
+
+.panel-qq-zone a .go {
+	position: absolute;
+	right: 40px;
+	bottom: 16px;
+	font: 20px "Microsoft YaHei", "SimHei", "Arial" !important;
+	width: 164px;
+	height: 40px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	line-height: 40px;
+	text-align: center;
+	background: #ec4241;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	color: #fff
+}
+
+.panel-qq-zone a .go:hover {
+	background-color: #ea2b2a
+}
+
+.panel-qq-zone a .go:active {
+	background-color: #ea2b2a;
+	outline: thin dotted;
+	outline-offset: -2px
+}
+
+body .jd-hide {
+	display: none
+}
+
+.jd-detail-left-recommend {
+	font: 13px "Microsoft YaHei", "SimHei", "Arial" !important;
+	color: #333;
+	position: fixed;
+	top: 150px;
+	right: 0;
+	background-color: #fff;
+	z-index: 2147483647;
+	-webkit-box-shadow: 0 0 10px rgba(0, 204, 204, .5);
+	-ms-box-shadow: 0 0 10px rgba(0, 204, 204, .5);
+	box-shadow: 0 0 10px rgba(0, 204, 204, .5)
+}
+
+.jd-hot-goods {
+	float: left;
+	width: 180px
+}
+
+.jd-hot-goods .title {
+	font: 600 16px/34px "Microsoft YaHei", "SimHei", "Arial" !important;
+	width: 180px;
+	text-align: left;
+	background-color: #ff8b8b;
+	color: #fff;
+	position: relative
+}
+
+.jd-hot-goods .title:hover .tip {
+	display: block
+}
+
+.jd-hot-goods .title em {
+	background:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAMCAYAAACulacQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjlEMzcxNzMwNEFBMTFFN0FBN0JEQkVEM0IxMkIxNzQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjlEMzcxNzQwNEFBMTFFN0FBN0JEQkVEM0IxMkIxNzQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGOUQzNzE3MTA0QUExMUU3QUE3QkRCRUQzQjEyQjE3NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGOUQzNzE3MjA0QUExMUU3QUE3QkRCRUQzQjEyQjE3NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlykkQEAAAB5SURBVHjaYvj//78GEO8GYn4gZkDGIOL4fwg4AsRc6JIqQPwKqmAHELMhS4KwPhB/gCpYDcTMyJIgbAXEX6EK5gAxIwOaI9yA+CdUQS8TAypgQWL/RdZli2TsTGRjjZActBzZQepIXtmK7hVYIBzEFQjbsQUfQIABAPC3AbsL1ASsAAAAAElFTkSuQmCC)
+		no-repeat center;
+	cursor: pointer;
+	display: inline-block;
+	width: 7px;
+	height: 12px;
+	margin: 0 28px 0 10px
+}
+
+.jd-hot-goods .title p {
+	padding-left: 20px;
+	cursor: pointer;
+	display: inline-block;
+	background:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0M2Nzc2MEUwNEE5MTFFNzg0QzRBOEM1MzhCOUI0NDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0M2Nzc2MEYwNEE5MTFFNzg0QzRBOEM1MzhCOUI0NDQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3QzY3NzYwQzA0QTkxMUU3ODRDNEE4QzUzOEI5QjQ0NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3QzY3NzYwRDA0QTkxMUU3ODRDNEE4QzUzOEI5QjQ0NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmZuzDoAAALtSURBVHjajJNJaFRBEIb/7vcyZlwyGRNFECEuuOFCFBERPShRoqgIEfGg4iEIgoLoUTx48CCCEkUUUTS4geJCQFDc8OASl0TBuOESxySTzWQyk3nTb+myeoxh1KAWFK+rX33/q1ddDQxgRDSF/TR7G/2wFvbj7BMGykdC6Qi/HJMjsI3dpYEtw74pJ3eM4ZF09SkO1vZtbs8lmtKKqt42UUN36nexzX35aw0vCVjF8coupWdowj7zkp+IpRXOf2mH4qDqdQzxjNtfPW8d7Fa6xHCGFxxQJCQoIFR0ZPRuFfjT19e+k52uh2jIBnkuAstG0tco0D5qFs3SAYknxflyrxS4mnBJSFdTghWFJXCmUDXWh1oeytIvtRgHFwW8OTiUh6ECKHYSmNr8EiL+WEZU41sWuGA4w9tEuJ/2acVgW4R9ldgYjo5GpO4ExqdqsLByC8SwKKijGXcuHwNpDa/8ADhvwyBWYA6Gl7ZEBZcUSyXbuFMa7Z29iMdb0PutA+UTS1BWJFE+bRLyhEZGKTR+bsrmpXpaYTjDC9OozkwQyku8icvAiT6v/wTfUyidX4ZIdDgXLMwxIJ1K4WXtPbieh9kzx4LscJcXmTKqKN9ypRHJLnQmSKZ9qIyDBeVrUFg0EkLarGFln0MKCjF30Qoox0HSAaRW2nC/DJ3z7b3T7gRk/G/GVVNrOiDV87VfQPQNjaTA9YQVkvhvI4OPEkK0ZiHu8pz/Eehqb8mJBHh0lptVFnR8Gs0b/7QHN6/gY0Nddn2t+ghqzh7dVbls1jg7qylwvcvVqRH5cmgu9OHVs19E5pWtRnXVHj7uAM2xRsxbWlFSECm8KH4mtDnBfj7JHSPCEuIfFZ07eRgvbpzRPHwy1tHztL8PI8PWTq7o0NdUoLtdgvfb7/HdQtIjNPVqWrxuy+2M8i+1JXrJtuTxPz7KRzjZD4ITrhZzfeIr9WPWYAnS3PrXtpRbi8PW3U1Lpg0KtC6tvtXw6LsAAwDnbfhm4S/8xQAAAABJRU5ErkJggg==)
+		no-repeat left;
+	background-size: 17px 18px
+}
+
+.jd-hot-goods .title .tip {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	font: 400 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	min-width: 30px;
+	position: absolute;
+	top: -27px;
+	left: 6px;
+	padding-bottom: 6px;
+	word-break: break-line;
+	word-wrap: break-word;
+	line-height: 16px;
+	color: #29cee9
+}
+
+.jd-hot-goods .title .tip .tip-content {
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #29cee9
+}
+
+.jd-hot-goods .title .tip .tip-content:before, .jd-hot-goods .title .tip .tip-content:after,
+	.jd-hot-goods .title .tip .tip-content .before, .jd-hot-goods .title .tip .tip-content .after
+	{
+	position: absolute;
+	right: 40px;
+	bottom: -9px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-style: solid;
+	border-color: transparent;
+	border-top: 5px solid #29cee9;
+	border-left-width: 5px;
+	border-right-width: 6px
+}
+
+.jd-hot-goods .title .tip .tip-content:after, .jd-hot-goods .title .tip .tip-content .after
+	{
+	position: absolute;
+	bottom: -8px;
+	border-top-color: #fff
+}
+
+.jd-hot-goods .title .tip .tip-content {
+	padding: 3px 10px
+}
+
+.jd-hot-goods .title .tip {
+	display: none;
+	z-index: 999999
+}
+
+.jd-hot-goods span {
+	color: #8C8C8C
+}
+
+.jd-hot-goods .guess-item-img {
+	width: 108px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	text-align: center
+}
+
+.jd-hot-goods .guess-item-img:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	height: 100%;
+	font-size: 0;
+	line-height: 0;
+	width: 0
+}
+
+.jd-hot-goods .guess-item-img img {
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1rem;
+	line-height: normal
+}
+
+.jd-hot-goods ul {
+	margin-top: 10px
+}
+
+.jd-hot-goods ul li {
+	text-align: center;
+	color: #333;
+	font: 13px "Microsoft YaHei", "SimHei", "Arial" !important
+}
+
+.jd-hot-goods ul li p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	width: 150px;
+	margin: 10px 0 0 15px
+}
+
+.jd-hot-goods ul li.hide {
+	display: none
+}
+
+.jd-hot-goods ul .jd-price, .jd-next-hot {
+	text-align: center;
+	margin-bottom: 10px
+}
+
+.jd-next-hot {
+	color: #949395
+}
+
+.jd-next-hot .active {
+	margin-left: 7px
+}
+
+.jd-next-hot .total {
+	margin-right: 7px
+}
+
+.jd-next-hot em {
+	background-color: #f0f0f0;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	font: 600 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer
+}
+
+.jd-hot-goods-close {
+	display: block;
+	width: 38px;
+	max-width: 38px;
+	font: 17px/26px "Microsoft YaHei", "SimHei", "Arial" !important;
+	color: #ff8b8b;
+	cursor: pointer
+}
+
+.jd-hot-goods-close em {
+	background: #ff8b8b
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDUyNzM5RkJGOThGMTFFNkJBMUZCREY1RDAxNDM2MkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDUyNzM5RkNGOThGMTFFNkJBMUZCREY1RDAxNDM2MkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowNTI3MzlGOUY5OEYxMUU2QkExRkJERjVEMDE0MzYyQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowNTI3MzlGQUY5OEYxMUU2QkExRkJERjVEMDE0MzYyQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjiqrSoAAAC+SURBVHjajJJbCsIwEEWnugYR0R/xtTIF/RAXoaCgFMHtCNIliIj4qeIu2nhHb+gQInTgNHDaS5LOiHNOAhJwANPAd8AJ9GKBvftVDkb0bXCnz8JQyhcFmNC1wI3+Abo2sDWBGV0TXOmfejT1PrA2gTldA1zoX2DgN9DH0pW1MIEz3dvc7UtNRHIpq861IFr6TSK2mF5V2G1oj+fZVLhXPwwpuyp/UCITkUaaa3uVyZ8x0qkYB16n4qjN/QgwAMlO5mJd2qcFAAAAAElFTkSuQmCC)
+		no-repeat center;
+	display: inline-block;
+	width: 38px;
+	height: 38px
+}
+
+.jd-hot-goods-close p {
+	padding: 0 10px;
+	margin-bottom: 8px
+}
+
+.jd-add-qq {
+	position: fixed;
+	right: 5px;
+	bottom: 10px;
+	font: 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	-webkit-box-shadow: 0 0 10px rgba(0, 204, 204, .5);
+	-ms-box-shadow: 0 0 10px rgba(0, 204, 204, .5);
+	box-shadow: 0 0 10px rgba(0, 204, 204, .5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	z-index: 2147483647
+}
+
+.jd-add-qq .add-qq-header {
+	text-align: right;
+	padding: 5px 8px
+}
+
+.jd-add-qq .add-qq-content {
+	display: inline-block;
+	text-align: center;
+	padding: 0 20px;
+	margin-bottom: 25px;
+	color: #333;
+	text-decoration: none;
+	cursor: auto
+}
+
+.jd-add-qq .qq-warm {
+	font: 600 14px "Microsoft YaHei", "SimHei", "Arial" !important;
+	color: #333;
+	margin-bottom: 18px
+}
+
+.jd-add-qq .add-qq-button {
+	margin-top: 18px
+}
+
+.jd-add-qq .add-qq-button span {
+	width: 145px;
+	height: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	line-height: 30px;
+	text-align: center;
+	background: #ff8b8b;
+	border-radius: 15px;
+	cursor: pointer;
+	color: #fff;
+	display: inline-block
+}
+
+.jd-add-qq .add-qq-button span:hover {
+	background-color: #ff7272
+}
+
+.jd-add-qq .add-qq-button span:active {
+	background-color: #ff7272;
+	outline: thin dotted;
+	outline-offset: -2px
+}
+
+.yht-panel-notification {
+	width: 360px;
+	z-index: 2147483647;
+	background-color: #fff;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+	transition: opacity .3s, transform .3s, right .3s, top .4s;
+	padding: 10px 10px 0;
+	position: fixed;
+	right: 0;
+	bottom: 10px
+}
+
+.yht-panel-notification .yht-close {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	background:
+		url("//1pcdn.1haitao.com/explugin/img/panel/icon-close3.png")
+		no-repeat
+}
+
+.yht-panel-notification .goos-item {
+	font-size: 12px;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px
+}
+
+.yht-panel-notification .goos-item:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	height: 100%;
+	font-size: 0;
+	line-height: 0;
+	width: 0
+}
+
+.yht-panel-notification .goos-item>div {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%
+}
+
+.yht-panel-notification .goos-item .img {
+	width: 110px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	text-align: center
+}
+
+.yht-panel-notification .goos-item .img:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	height: 100%;
+	font-size: 0;
+	line-height: 0;
+	width: 0
+}
+
+.yht-panel-notification .goos-item .img img {
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1rem;
+	line-height: normal
+}
+
+.yht-panel-notification .goos-item .yht-info {
+	width: 220px;
+	height: 80px;
+	display: inline-block;
+	color: #999
+}
+
+.yht-panel-notification .goos-item .yht-info .yht-title {
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-height: 26px
+}
+
+.yht-panel-notification .goos-item .yht-info .yht-subhead {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 5px;
+	height: 28px
+}
+
+.yht-panel-notification .yht-bottom {
+	text-align: left;
+	margin-top: 5px
+}
+
+.yht-panel-notification .yht-bottom>div {
+	display: inline-block
+}
+
+.yht-panel-notification .yht-bottom .yht-left p {
+	background: url("//1pcdn.1haitao.com/explugin/img/yht-icon-logo.png")
+		no-repeat left;
+	padding-left: 25px;
+	color: #29cee9;
+	font-size: 14px
+}
+
+.yht-panel-notification .yht-bottom .yht-right {
+	display: inline-block;
+	float: right
+}
+
+.yht-panel-notification .yht-bottom .yht-right p {
+	background: url("//1pcdn.1haitao.com/explugin/img/panel/icon-go.png")
+		no-repeat right;
+	padding-right: 18px;
+	color: #333
+}
+
+.yht-inject-price {
+	width: 460px;
+	font: 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	background-color: #fff;
+	margin-left: 10px
+}
+
+.yht-inject-price ul {
+	font-size: 0;
+	text-align: left;
+	border-top: 3px solid #29cee9;
+	border-bottom: 1px solid #eee
+}
+
+.yht-inject-price ul:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	height: 100%;
+	font-size: 0;
+	line-height: 0;
+	width: 0
+}
+
+.yht-inject-price ul li {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%
+}
+
+.yht-inject-price li {
+	display: inline-block;
+	font: 600 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	padding: 3px 8px;
+	color: #29cee9;
+	line-height: 24px
+}
+
+.yht-inject-price li a {
+	color: #29cee9
+}
+
+.yht-inject-price li span {
+	padding: 0 15px;
+	border-left: 2px solid #29cee9;
+	border-right: 2px solid #29cee9
+}
+
+.yht-inject-price li .yht-app {
+	background: url("//1pcdn.1haitao.com/explugin/img/icon-qr2.png")
+		no-repeat left 1px;
+	padding-left: 20px;
+	position: relative;
+	cursor: pointer
+}
+
+.yht-inject-price li .yht-app:hover .tip {
+	display: block
+}
+
+.yht-inject-price li h2 {
+	font: 600 15px PingFangSC-Regular, "Droid Sans Regular", "Rotobo",
+		"Microsoft YaHei";
+	margin: 5px 0
+}
+
+.yht-inject-price li .tip {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	width: 145px;
+	font: 12px "Microsoft YaHei", "SimHei", "Arial" !important;
+	word-break: break-line;
+	word-wrap: break-word;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: -44px;
+	line-height: 16px;
+	color: #29cee9;
+	padding-top: 9px
+}
+
+.yht-inject-price li .tip .tip-content {
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #29cee9
+}
+
+.yht-inject-price li .tip .tip-content:before, .yht-inject-price li .tip .tip-content:after,
+	.yht-inject-price li .tip .tip-content .before, .yht-inject-price li .tip .tip-content .after
+	{
+	position: absolute;
+	top: -13px;
+	left: 65px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-style: solid;
+	border-color: transparent;
+	border-bottom: 9px solid #29cee9;
+	border-left-width: 9px;
+	border-right-width: 10px
+}
+
+.yht-inject-price li .tip .tip-content:after, .yht-inject-price li .tip .tip-content .after
+	{
+	position: absolute;
+	top: -12px;
+	border-bottom-color: #fff
+}
+
+.yht-inject-price li .tip .tip-content {
+	padding: 3px
+}
+
+.yht-inject-price li .tip p {
+	margin: 5px 0
+}
+
+.yht-inject-price li .tip {
+	display: none;
+	z-index: 999999
+}
+
+.yht-inject-price .yht-active-item {
+	padding: 5px 12px
+}
+
+.yht-inject-price .yht-active-item a:hover {
+	color: #f22
+}
+
+.yht-inject-price .yht-active-item p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 24px;
+	padding-right: 20px;
+	color: #333
+}
+</style>
+</head>
+
+<body>
+	<div id="div_company_mini"
+		style="display: none; position: fixed; right: 0px; bottom: 0px; width: 403px; height: 378px; overflow: hidden; z-index: 10089; cursor: move;">
+		<div id="hz6d_cname_mini_div"
+			style="font-size: 16px; overflow: hidden; position: absolute; top: 7px; left: 10px; width: 330px; height: 20px; color: #fff; text-indent: 30px; background: url(http://www2.53kf.com/style/chat/minichat2/img/minchat_ns_7.png) -79px 0 no-repeat; font-weight: bold; font-family: Arial;">祛斑官网</div>
+		<div title="缩小" mini_narrow="缩小" mini_recover="还原" max_min="max"
+			style="position: absolute; top: 10px; right: 46px; width: 12px; height: 12px; background: url(http://www2.53kf.com/style/chat/minichat2/img/min.png?11) no-repeat; cursor: pointer;"
+			onclick="max_min_company_mini(this);"></div>
+		<div title="切换到正常窗口"
+			style="position: absolute; top: 10px; right: 28px; width: 12px; height: 12px; background: url(http://www2.53kf.com/style/chat/minichat2/img/maxto.gif) no-repeat; cursor: pointer;"
+			onclick="max_from_company_mini(this);"></div>
+		<div title="关闭"
+			style="position: absolute; top: 10px; right: 10px; width: 12px; height: 12px; background: url(http://www2.53kf.com/style/chat/minichat2/img/minchat_ns_7.png) -18px 0 no-repeat; cursor: pointer;"
+			onclick="close_company_mini();"></div>
+		<div id="mini_header_bg_div"
+			style="position: static; width: 400px; margin: 0 2px; height: 35px; background: url(http://www2.53kf.com/style/chat/minichat2/img/header_bg_7.png?111) no-repeat;"></div>
+		<div id="iframe_company_mini_div" style="width: 100%; height: 100%;">
+			<iframe id="iframe_company_mini" frameborder="0" width="100%"
+				height="100%" src="./index_files/saved_resource.html"></iframe>
+		</div>
+	</div>
+	<div id="kfivtwin" style="display: none; overflow: visible;">
+		<div id="acc_title" class="Lelem" minheight="100" minwidth="100"
+			maxheight="400" maxwidth="400"
+			style="position: relative; z-index: 10000; overflow: visible;">
+			<div
+				style="display: block; cursor: default; position: absolute; top: 46px; left: 5px; z-index: 10001; width: 390px; height: 202px;"
+				type="img" class="Lelem">
+				<img src="./index_files/commonbg_6.png"
+					style="width: 390px; height: 202px;">
+			</div>
+			<div class="Lelem" type="text"
+				style="display: block; cursor: default; position: absolute; top: 59px; left: 19px; z-index: 10002; width: 111px; height: 22px; color: rgb(255, 255, 255);">
+				<span iseditable="1"
+					style="vertical-align: top; font-family: 宋体; font-size: 15.4px; line-height: 22px; color: rgb(255, 255, 255); font-weight: bold;">中医中药祛斑</span>
+			</div>
+			<div
+				style="display: block; cursor: pointer; position: absolute; top: 66px; left: 369px; z-index: 10003; width: 10px; height: 8px;"
+				onclick="onliner_zdfq=3;hidden_ivt();;" type="img" class="Lelem">
+				<img src="./index_files/closebtn_4.png"
+					style="width: 10px; height: 8px;">
+			</div>
+			<div
+				style="display: block; cursor: default; position: absolute; top: 91px; left: 19px; z-index: 10004; width: 129px; height: 135px;"
+				type="img" class="Lelem">
+				<img src="./index_files/otherimg_11.png"
+					style="width: 129px; height: 135px;">
+			</div>
+			<div
+				style="display: block; cursor: default; position: absolute; top: 100px; left: 163px; z-index: 10005; width: 85px; height: 23px; color: rgb(255, 255, 255);"
+				type="text" class="Lelem">
+				<span
+					style="vertical-align: top; color: rgb(255, 255, 255); font-size: 16.1px; line-height: 23px; font-family: 黑体; font-weight: bold;"
+					iseditable="1">欢迎咨询！</span>
+			</div>
+			<div
+				style="display: block; cursor: default; position: absolute; top: 128px; left: 167px; z-index: 10006; width: 226px; height: 17px; color: rgb(255, 255, 255);"
+				type="text" class="Lelem">
+				<span
+					style="vertical-align: top; font-size: 12px; line-height: 17px; color: rgb(255, 255, 255); font-family: 宋体;"
+					iseditable="1">感谢您的支持！</span>
+			</div>
+			<div
+				style="display: block; cursor: default; position: absolute; top: 149px; left: 167px; z-index: 10007; width: 184px; height: 17px; color: rgb(255, 255, 255);"
+				type="text" class="Lelem">
+				<span style="vertical-align: top; font-family: 宋体; font-size: 12px;"
+					iseditable="1">请问有什么可以帮您？</span>
+			</div>
+			<div class="Lelem" type="img"
+				onclick="onliner_zdfq=2;hz6d_is_exist(&quot;window.open(%22http%3A%2F%2Fwww2.53kf.com%2FwebCompany.php%3Farg%3D10103424%26style%3D1%26kflist%3Doff%26kf%3D55238baa99327c2d44bcea60%26zdkf_type%3D2%26language%3Dzh-cn%26charset%3Dgbk%26username%3D%26userinfo%3D%26introurl%3D%26lyurl%3D%26lytype%3D0%26copartner%3D%26referer%3Dhttp%253A%252F%252Fsg1.cybervoice.cn%252F%26keyword%3D%26brief%3D%26logo%3D%26question%3D%26uid%3D52d4db46dc396c714e7d46d55ac34806%26tfrom%3D2%22%2C%22_blank%22%2C%22height%3D473%2Cwidth%3D703%2Ctop%3D200%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno%22)&quot;);hidden_ivt();;"
+				style="display: block; cursor: pointer; position: absolute; top: 184px; left: 164px; z-index: 10008; width: 107px; height: 34px;">
+				<img style="width: 107px; height: 34px;"
+					src="./index_files/clickbtn_41.png">
+			</div>
+			<div class="Lelem" type="text"
+				onclick="onliner_zdfq=3;hidden_ivt();;"
+				style="display: block; cursor: pointer; position: absolute; top: 193px; left: 285px; z-index: 10009; width: 60px; height: 17px;">
+				<span onclick="onliner_zdfq=3;hidden_ivt();;" iseditable="1"
+					style="vertical-align: top; color: #FFF; font-family: 宋体; text-decoration: underline; font-size: 12px;">下次再说</span>
+			</div>
+		</div>
+	</div>
+	<div id="kfivteffect"
+		style="display: none; position: absolute; width: 0px; height: 0px; overflow: hidden; border: 1px solid rgb(27, 136, 208); background: rgb(214, 238, 253); z-index: 10087;"></div>
+	<iframe id="kfiframe" src="./index_files/saved_resource(1).html"
+		frameborder="0" scrolling="no"
+		style="display: none; overflow: hidden;"></iframe>
+
+	<div
+		style="background: #000; font-size: 14px; line-height: 30px; z-index: 99;"
+		class="header">
+		<!--<a href="#"><font color="#CCCCCC">首页</font></a>|<a href="contact.html" ><font color="#CCCCCC">联系我们</font></a>|<a href="about.html" ><font color="#CCCCCC">关于我们</font></a>-->
+
+
+
+	</div>
+	<div class="main pr">
+		<img src="./index_files/img_01.jpg">
+		<div class="top_box clf">
+			<div class="top_l">
+				<a href="javascript:void(0);"></a>
+			</div>
+			<div class="top_c">
+				<p class="clf">
+					<span class="fl"></span><img src="./index_files/sex.png"
+						class="fl sex">
+				</p>
+				<p class="clf">
+					<span class="fl"></span><img src="./index_files/vip.png"
+						class="fl vip">
+				</p>
+			</div>
+			<div class="top_r">
+				<div class="top_r_box clf">
+					<a href="javascript:void(0);"><div class="add_top">+</div>
+						<span>加好友<br>帮祛斑
+					</span></a>
+				</div>
+			</div>
+			<div class="top_b clf">
+				<div class="top_b_people">
+					<img src="./index_files/top_b_people.png" class="fl"><span
+						class="fl">75305</span>
+				</div>
+				<div class="top_b_like">
+					<img src="./index_files/top_b_like.png" class="fl"><span
+						class="fl">94031</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="thame_pic top" id="lazy_img">
+			<div class="menu clf">
+				<ul>
+					<li class="on">定制祛斑方案</li>
+					<li>粉丝留言</li>
+				</ul>
+			</div>
+			<div class="change clf">
+				<div id="case">
+					<div id="swiper_container">
+						<div class="swiper-container swiper-container-horizontal">
+							<div class="swiper-wrapper notmove">
+								<div class="swiper-slide swiper-slide-active"
+									style="width: 586px;">
+									<img src="./index_files/test.png">
+									<div class="first" id="first">
+										<div class="tips">剩二题</div>
+										<h3
+											style="color: #88c20b; margin-top: 0; font-size: 1.1rem; font-weight: normal;">测一测你适合哪种祛斑方案</h3>
+										<h3>1.你的年龄是？</h3>
+										<ul class="clf">
+											<li>15岁-25岁</li>
+											<li>25岁-40岁</li>
+											<li>40岁以上</li>
+										</ul>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-next"
+									style="width: 586px;">
+									<img src="./index_files/test.png">
+									<div class="first">
+										<div class="tips clf">
+											<span class="fl prev">上一题</span>剩一题
+										</div>
+										<h3 style="margin-top: 0;">2.您长斑多久了？</h3>
+										<ul class="clf" id="second">
+											<li>长斑1-4年</li>
+											<li>长斑4-10年</li>
+											<li>10年以上</li>
+										</ul>
+									</div>
+								</div>
+								<div class="swiper-slide" style="width: 586px;">
+									<img src="./index_files/test.png">
+									<div class="first" id="third">
+										<div class="tips clf">
+											<span class="fl prev">上一题</span>
+										</div>
+										<h3 style="margin-top: 0;">3.你以前祛斑过吗？</h3>
+										<ul class="clf">
+											<li>A.试过很多方法，但都不理想</li>
+											<li>B.很想祛斑，就是不敢尝试</li>
+											<li>C.成功过，可是斑点又反弹了</li>
+										</ul>
+										<p>
+											<a id="submit_btn">提交</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="case_main">
+						<div class="wechat_txt">
+							<p>长按下方的按钮复制添加佳美微信号</p>
+							<div class="wechat_txtnum">
+								<script>document.write(wechat_num);</script>
+							</div>
+							<p class="col_green">佳美老师1对1指导祛斑，轻松祛斑你也可以！</p>
+						</div>
+					</div>
+					<div class="InfoTitle">
+						<h3>祛斑不能盲目</h3>
+						<h3 class="col_yellow">找对方法，祛斑其实很简单!</h3>
+					</div>
+					<div class="case_main textIndent2">
+						<p>我叫张丽华，今年26岁，因为常年长斑，我很内向，不敢跟人交流，在公开场合都不敢大声说话。从来没有交过男朋友，怕人家嫌弃自己满脸的雀斑，喜欢了一个男孩好多年，一直都不
+							敢告诉他，眼看脸上的斑一天天加重，我整个人都没了自信，工作也提不起精神。</p>
+					</div>
+					<div class="box_80">
+						<img class="lazy" src="./index_files/img_03.jpg"
+							data-original="images/img_03.jpg" style="display: inline;">
+					</div>
+					<div class="case_main textIndent2">
+						<p>后来经朋友介绍，加了佳美的微信，看到那么多成功的祛斑例子，我也看到了希望，通过几次了解，她很快给出了适合我的祛斑方案！这个方案可以根据不同人的体质等情况进行不同的搭配。</p>
+					</div>
+					<div class="box_80">
+						<img class="lazy" src="./index_files/img_04.jpg"
+							data-original="images/img_04.jpg" style="display: inline;">
+					</div>
+					<div class="case_main textIndent2">
+						<p>用了这个祛斑方案后，我的斑半个多月开始变淡，两个月脸上的斑就开始消失，三个多月脸上的斑全部消失而且皮肤变白了很多，如今祛斑都1年了，脸上没有任何反弹！为了拯救更多绝望的长斑朋友，为了感谢祛斑达人佳美，我下定决心尽我所能，免费宣传它。和我一样想祛斑成功的斑友们，可以加佳美的微信，佳美朋友圈里面有很多祛斑成功的真实反馈心得和各类祛斑知识，可以学习下，还可以免费得到佳美的祛斑指导！</p>
+					</div>
+					<div class="case_main mt1">
+						<div class="wechat_txt">
+							<p>长按下方按钮复制并添加祛斑达人佳美的微信号</p>
+							<div class="wechat_txtnum">
+								<script>document.write(wechat_num);</script>
+							</div>
+							<p class="col_green">佳美1对1指导祛斑，轻松祛斑你也可以！</p>
+						</div>
+					</div>
+					<div class="InfoTitle">
+						<h3 class="col_yellow fwb">长斑的女人伤不起！！</h3>
+						<h3 class="fz09">下面给大家分享在佳美的帮助下祛斑成功人生案例！</h3>
+					</div>
+					<div class="case_main">
+						<div class="fit_people">
+							<img class="lazy" src="./index_files/img_05.jpg"
+								data-original="images/img_05.jpg" style="display: inline;">
+							<div class="fitTitle">
+								<img src="./index_files/arr_up.png">来自江西徐静
+							</div>
+							<p>我是生了孩子之后，从坐月子就开始不断的长斑，那段时间真的很痛苦，主要是每天都要照顾孩子，老公白天上班很晚才回来，晚上孩子哭闹全部都是我一个人在照顾，每天晚上都睡不好觉，以为做完月子后脸上的斑就会好转。但是做完月子之后还在不停的加重，我以前脸上的皮肤很好的，很多朋友都羡慕我皮肤好，现在我真的不知道该怎么办了，我真的很担心，自己越来越丑。老公也知道我的情况，后来老公加了佳美的微信，把我的情况跟佳美说了，佳美帮忙分析了一下，给出了一个方法，老公让我试试，本没报太大的信心，刚开始几天效果不明显，还好没放弃，后来坚持使用大概10多天，发现脸上的斑没有以前多了，我就坚持使用，大概1个多月的时间，发黄的脸色变淡，片状斑点变少一点，使我更有信心用下去了，现在脸上没有斑了，佳美推荐的祛斑方法很好，我现在都用，虽然比一般贵些，确实值得。在此劝大家不要使用那些速成的方法，都有或多或少的隐患，说不定伤害皮肤，情况更严重。</p>
+						</div>
+						<div class="fit_people">
+							<img class="lazy" src="./index_files/img_06.jpg"
+								data-original="images/img_06.jpg" style="display: inline;">
+							<div class="fitTitle">
+								<img src="./index_files/arr_up.png">来自深圳的范范
+							</div>
+							<p>初中同学范范，我因为从事广告行业，几乎每天都要对着电脑10小时以上，有时更是加班加点至凌晨；加上工作压力大。每次洗脸、梳头发，买新衣服照镜子，都不愿意看到自己的脸，这段时间长斑很厉害。老公也不愿跟我一起逛街，因为害怕碰上同事打招呼，有天老公下班回来带回佳美发的包裹，说是加了佳美微信，看到很多人在佳美的帮助下，止斑祛斑成功，就把我的情况和照片发给了佳美，佳美还问了一些生活细节，推荐的祛斑方法。不忍辜负老公的好意，坚持了下来，3个多月了，看看是不是都恢复正常了，好高兴！</p>
+						</div>
+						<div class="fit_people">
+							<img class="lazy" src="./index_files/img_07.jpg"
+								data-original="images/img_07.jpg" style="display: inline;">
+							<div class="fitTitle">
+								<img src="./index_files/arr_up.png">来自贵州的胡斌
+							</div>
+							<p>谁说老师不会有压力？我是一个刚工作不到三年的初中老师，担任初三级班主任已经2年多了。在这2年里，我时时都感觉到压力，担心班级成绩搞不上去而被上级领导怪责，担心孩子们的未来，我甚至晚上经常失眠，那种焦虑真的无法形容！令我更为焦虑的是，我开始慢慢的长了很多斑点，让我在学生和同事前不敢抬起头。在工作之余，我用了很多的祛斑方法，都没什么效果。
+								我的一个朋友也有很多斑比我的还严重，在佳美那里成功祛斑后推荐我也去试试，就加了佳美微信，经过佳美的分析，给了我一些建议，推荐了适合我的祛斑方法，每天都按照佳美的方法祛斑，二个多月下来，我脸上的斑慢慢消失了，到现在已经基本好了。前天，一个跟我一样长斑的同事问到我，我让她到佳美那里去试试，她说成功祛斑后请我吃大餐感谢我，希望她和我一样早日摆脱困扰。！</p>
+							<div align="center">
+								<script type="text/javascript">document.write(wechat_pic);</script>
+							</div>
+							<div class="fitTitle">
+								<img src="./index_files/arr_up.png">佳美的微信号:<script type="text/javascript">document.write(wechat_num)</script>，扫一扫就加上
+							</div>
+						</div>
+						<p></p>
+					</div>
+				</div>
+				<div class="depart"></div>
+				<div class="case_main mt1">
+					<div class="middle_voice">
+						<div class="m_voiceTop clf">
+							<img src="./index_files/icon.png" class="fl clf icon"> <span
+								class="fl clf fwb col_deepgreen">祛斑成功走上蜕变之路</span>
+						</div>
+						<div class="m_voiceBottom">
+							<p>总有人祛斑成功，为什么不是你呢？别再说产品价钱太贵、担心祛斑产品没有效果，那是你决心还不够。佳美的祛斑产品都是有正规检验报告的，可以放心祛斑0反弹，适合所有祛斑者。已帮助各类祛斑朋友128365+祛斑成功！你还不行动，时间越长越难祛斑。</p>
+							<p>
+								<img src="./index_files/abc.gif">
+							</p>
+							<a href="javascript:void(0);" class="Link">&gt;&gt;快加祛斑达人佳美微信，轻松祛斑不是问题！</a>
+							<p>为了更好地为大家服务，希望大家加祛斑达人佳美为微信好友后能主动咨询！因为每天加的人实在太多啦！你不问，佳美就不知道你是否需要帮助喔！</p>
+						</div>
+					</div>
+				</div>
+				<div
+					style="text-align: center; color: #999; font-size: 12px; margin-top: 15px;"></div>
+			</div>
+			<div id="comment">
+				<ul>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_01.png" class="fl"><span
+									class="fl">筱筱兔</span>
+							</div>
+							<div class="user_txt clf">
+								<p>从小我就有雀斑，读小学时经常被人欺负，真的很难过，性格也变得自卑。认识佳美后才下定决心祛斑。真的很感谢佳美，祛斑不仅是变美那么简单，是整个人生的蜕变。</p>
+							</div>
+							<div class="user_Pic clf">
+								<ul>
+									<li id="1"><img src="./index_files/userPic_1.jpg"></li>
+									<li id="2"><img src="./index_files/userPic_2.jpg"></li>
+								</ul>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_02.png" class="fl"><span
+									class="fl">Coco李</span>
+							</div>
+							<div class="user_txt clf">
+								<p>佳美很热情，跟她咨询了很多问题，一直很耐心地回答我。祛斑前还很怀疑有没有效果，抱着试一试的决心，但是差不多20天左右我脸上的皮肤就开始变白了，还吓了我一跳不敢相信。1个半月下来，我的雀斑淡了很多，3个月左右脸上的这些雀斑都看不到了，很开心！</p>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_03.png" class="fl"><span
+									class="fl">糖糖</span>
+							</div>
+							<div class="user_txt clf">
+								<p>我是佳美朋友圈的一个斑友，典型的色素沉着性色斑，用过含有重金属的祛斑产品，斑点越来越重了。坚持使用佳美搭配的祛斑产品半年多，色斑基本上看不出来了，皮肤也更有光泽了！！哈哈哈~~~我准备去疯狂购物，把喜欢的衣服都买回家！</p>
+							</div>
+							<div class="user_Pic clf">
+								<ul>
+									<li id="3"><img src="./index_files/userPic_3.jpg"></li>
+									<li id="4"><img src="./index_files/userPic_4.jpg"></li>
+								</ul>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_04.png" class="fl"><span
+									class="fl">芦苇的爱</span>
+							</div>
+							<div class="user_txt clf">
+								<p>典型的雀，加上怀孕生子，更加严重了，佳美当时就给我介绍的她，说不到半年就彻底淡化了，现在还有点，人家还在继续使用呢！！！</p>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_05.png" class="fl"><span
+									class="fl">周彤</span>
+							</div>
+							<div class="user_txt clf">
+								<p>自从上大学后，脸上一直在长斑，就没有少过越来越严重。女生都是爱美的，真的令我很在意。所以我找到佳美帮忙，一个月的时间脸上的斑淡了好多，真的太有效了！</p>
+							</div>
+							<div class="user_Pic clf">
+								<ul>
+									<li id="5"><img src="./index_files/userPic_5.jpg"></li>
+									<li id="6"><img src="./index_files/userPic_6.jpg"></li>
+									<li id="7"><img src="./index_files/userPic_7.jpg"></li>
+								</ul>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_06.png" class="fl"><span
+									class="fl">科比</span>
+							</div>
+							<div class="user_txt clf">
+								<p>出来工作后，压力大。经常应酬，天天吃辛辣油腻的，在生活中都不怎么在意。后来才发现眼下长黑点脸开始发黄，那时才知道害怕。幸好认识了佳美，通过一段时间的调理祛斑，皮肤才开始好转脸上的斑点也变好了。</p>
+							</div>
+							<div class="user_Pic clf">
+								<ul>
+									<li id="8"><img src="./index_files/userPic_8.jpg"></li>
+									<li id="9"><img src="./index_files/userPic_9.jpg"></li>
+								</ul>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_07.png" class="fl"><span
+									class="fl">一叶菩提</span>
+							</div>
+							<div class="user_txt clf">
+								<p>佳美的祛斑方案效果很不错，半个月斑开始变淡，祛斑后没有一点副作用，很满意。</p>
+							</div>
+						</div></li>
+					<li><div class="user">
+							<div class="user_Info clf">
+								<img src="./index_files/user_08.png" class="fl"><span
+									class="fl">余韵</span>
+							</div>
+							<div class="user_txt clf">
+								<p>祛斑很轻松，一点负担都没有，而且完全不反弹。正如佳美所说是安全有效的祛斑方案。我会推荐给所有需要祛斑的朋友。</p>
+							</div>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="bottom_float">
+			<img src="./index_files/bottom_float.png"><a
+				href="javascript:void(0);" class="bottom_btn"><img
+				src="./index_files/add_btn.png"></a>
+		</div>
+	</div>
+	<div id="Mask">
+		<div class="pr">
+			<img src="./index_files/Mask.png">
+			<div class="Mask_txt">
+				<h3>
+					你的祛斑档案编号是"<font class="col_pink">17</font>"
+				</h3>
+				<p>
+					加好友验证时填写"<font class="col_pink">17</font>"
+				</p>
+				<p>
+					佳美为你定制<span class="col_deepgreen">方案帮你祛斑变美！</span>
+				</p>
+			</div>
+			<div class="close_Mask"></div>
+			<a href="javascript:void(0);" class="add_btn Link">+加好友</a>
+		</div>
+	</div>
+	<div id="thumb">
+		<div class="swiper-container swiper-container-horizontal"
+			style="margin-top: 7rem;">
+			<div class="swiper-wrapper" style="transition-duration: 0ms;"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+		<div class="thumb_close">x</div>
+	</div>
+	<div class="qq_Mask">
+		<div class="pr">
+			<img src="./index_files/qq.png">
+			<div class="Mask_txt">
+				<h3 style="font-size: 1.5rem;">加佳美微信帮你祛斑哦</h3>
+				<p style="text-align: center; color: #9b9b9b; font-size: 1.2rem;">每天只通过50个名额</p>
+				<p
+					style="text-align: center; margin-top: .6rem; font-size: .9rem; color: #9b9b9b;">↓长按下方按钮复制并添加佳美微信号↓</p>
+				<div class="Mask_wechat" oncopy="getCopyLog(this,4)">
+					<script>document.write(wechat_num);</script>
+				</div>
+			</div>
+			<div class="close_Mask"></div>
+		</div>
+	</div>
+	<script>var mySwiper=new Swiper('#case .swiper-container',{noSwiping:true,noSwipingClass:'notmove',});var mySecSwiper=new Swiper('#thumb .swiper-container',{observer:true,observeParents:true,prevButton:'.swiper-button-prev',nextButton:'.swiper-button-next',initialSlide:0,});</script>
+	<div id="Vidown_extension_alhnopeoagjmjfgcbnokcnagkecgdcdh"
+		style="display: none;"></div>
+	<div style="text-align: center; font-size: 12px; color: #999">
+		<div align="center">
+			<font size="-2"><a href="javascript:;"
+				target="_blank">首页</a>|<a href="javascript:;"
+				target="_blank">关于我们</a>|<a href="javascript:;"
+				target="_blank">联系我们</a>|<a href="javascript:;"
+				target="_blank">产品中心</a><br>
+			</font>
+		</div>
+	</div>
+
+	<div style="height: 100px;"></div>
+<div style="width:100%;height:50px;"><p style="text-align: center;font-size:15px;">商务合作请添加<span >QQ：374518552</span></p></div>
+</body>
+</html>

@@ -1,0 +1,686 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*顶部齿轮条*/
+#ChiLunBuFen{
+	width: 100%;
+	height: 25px;
+	position: fixed;
+	top:0%;
+	z-index: 5;
+}
+/*灰色条栏*/
+#ChiLunBuFen .HuiSe{
+	width: 100%;
+	height: 23px;
+	background-color: #ccccbe;
+	position: absolute;
+	z-index: 3;
+}
+/*灰色条栏结束*/
+/*齿轮元素*/
+#chiLun{
+	height:80px;
+	display: none;
+	position: absolute;
+	top: -30px;
+	left:70%;
+	z-index: 2;
+	transform:rotate(0deg);
+}
+/*齿轮元素结束*/
+/*阴影部分*/
+#ChiLunBuFen .shadow{
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	z-index: 0;
+	top:23px;
+	background-color: #5e5b5b;
+}
+/*阴影部分结束*/
+/*顶部齿轮条结束*/
+/*LOGO区域*/
+#LogoRegion{
+	width: 100%;
+	height: 15%;
+	margin: 0 auto;
+	position: relative;
+}
+#LogoRegion .Head{
+	position: absolute;
+	top: 35%;
+	left:55%;
+	width: 25%;
+}
+#LogoRegion .Logo{
+	display: block;
+	position: absolute;
+	top:20%;
+	left:10%;
+}
+#LogoRegion .Logo img{
+	height: 130px;
+}
+#LogoRegion .TEL{
+	height: 13%;
+	position: absolute;
+	top:80%;
+	left:75%;
+}
+/*LOGO区域结束*/
+/*导航栏*/
+#daoHangLan{
+	width: 100%;
+	height: 80px;
+	background: #242423;
+}
+#daoHangLan .daoHan{
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+}
+#daoHangLan .daoHan ul{
+	float: right;
+	margin-right: 3%;
+}
+#daoHangLan .daoHan li{
+	list-style: none;
+	height: 80px;
+	float: right;
+	line-height: 80px;
+	margin-right: 21px;
+	margin-left: 21px;
+}
+#daoHangLan .daoHan .right{
+	margin-right: 0px;
+}
+#daoHangLan .daoHan .left{
+	margin-left: 0px;
+}
+@font-face{
+	font-family: "幼圆";
+	src:url(../font/youyuan_1.woff);
+	src:url(../font/webfont.woff2);
+	src:url(../font/youyuan.ttf);
+}
+#daoHangLan .daoHan li a{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 200;
+	text-decoration: none;
+	font-family: 幼圆,微软雅黑
+}
+#daoHangLan .daoHan li a:hover{
+	transition:color  0.3s;
+	color: #cacac6;
+}
+/*导航栏结束*/
+
+/*3/1顶部结束*/
+
+/*3/2中部开始*/
+/*图片轮播开始*/
+#pohontRegion{
+	width: 100%;
+	height: 480px;
+	background: #420002;
+}
+#pohontRegion .conter{
+	width: 100%;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+}
+#pohontRegion a{
+	width: 100%;
+	height: 480px;
+	display: block;
+	position: absolute;
+}
+#one{
+	background: url(../imges/2331.jpg) no-repeat -20px;
+	}
+#two{
+	background: url(../imges/1331.jpg) no-repeat;
+
+}
+#three{
+	background: url(../imges/3331.jpg) no-repeat;
+}
+#pohontRegion .conter span{
+	display: block;
+	width: 68px;
+	height: 12px;
+	background: #827d7d;
+	position: absolute;
+	z-index: 5;
+	border-radius: 5px;
+	top: 419px;
+}
+/*阴影线条*/
+#pohontRegion .shadow{
+	width: 100%;
+	height: 2px;
+	background: #8a8585;
+	border-bottom: 1px solid #c5c2c2;
+}
+
+/*轮播广告结束*/
+
+/*公司简介与新闻*/
+/*空包隔条*/
+#newRegion{
+	width: 100%;
+	height: 264px;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 8px solid #474545;
+	border-bottom: 8px solid #474545;
+	position: relative;
+	overflow: hidden;
+}
+/*简介左旁的标题*/
+#newRegion .zhaoPai{
+	width: 185px;
+	height: 264px;
+	background: #dee3df;
+	position: absolute;
+	left:0px;
+	z-index: 3;
+}
+#newRegion .zhaoPai .tuJiao{
+	width: 30px;
+	height: 41px;
+	background: url(../imges/index.png) no-repeat ;
+	position: absolute;
+	left: 183px;
+	top:113px;
+}
+#newRegion .zhaoPai h1{
+	font-size: 42px;
+	font-weight: 400;
+	position: absolute;
+	top: 85px;
+	font-family: 微软雅黑;
+	left: 8px;
+}
+#newRegion .zhaoPai p{
+	display: block;
+	width: 180px;
+	position:absolute;
+	text-align: center;
+	top: 140px;
+	font-size: 14px;
+}
+#jianJieNeiRong{
+	width: 835px;
+	height: 264px;
+	position: absolute;
+	}
+#jianJieNeiRong img{
+	width: 400px;
+}
+#jianJieNeiRong p{
+	width: 429px;
+	height: 233px;
+	border: 1px dotted #c6c6c6;
+	float: right;
+	border-left: none;
+	overflow: hidden;
+	padding-top: 21pt;
+	color: #625f5f;
+	font-size: 16px;
+	font-family:微软雅黑;
+	line-height: 21px;
+}
+#jianJieNeiRong p a{
+	color: #625f5f;
+}
+#newNeiRong{
+	width: 835px;
+	height: 264px;
+	position: absolute;
+	left:1020px;
+}
+#newNeiRong img{
+	height: 264px;
+}
+#newNeiRong h2{
+	position: absolute;
+	top: 21px;
+	left:370px;
+	text-align: center;
+	width: 457px;
+	padding-bottom: 5px;
+	font-size: 21px;
+	border-bottom: 2px outset #525050;
+}
+#newNeiRong a{
+	text-decoration: none;
+	color: #434141;
+}
+#newNeiRong ul{
+	width: 140px;
+	position: absolute;
+}
+#newNeiRong ul li{
+	width: 220px;
+	height: 26px;
+	border-bottom: 1px dotted #525050; 
+	list-style: none;
+	font-size: 12px;
+	line-height: 26px;
+
+}
+#newNeiRong a:hover{
+	color: #e41515;
+}
+/*公司简介与新闻结束*/
+/*行业方案开始*/
+#industryIder{
+	width: 100%;
+	height: 264px;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 8px solid #474545;
+	border-bottom: 8px solid #474545;
+	position: relative;
+	overflow: hidden;
+}
+#industryIder .zhaoPai{
+	width: 185px;
+	height: 264px;
+	background: #dee3df;
+	position: absolute;
+	left:0px;
+	z-index: 4;
+}
+#industryIder .zhaoPai .tuJiao{
+	width: 30px;
+	height: 41px;
+	background: url(../imges/index.png) no-repeat ;
+	position: absolute;
+	left: 183px;
+	top:113px;
+}
+#industryIder .zhaoPai h1{
+	font-size: 42px;
+	font-weight: 400;
+	position: absolute;
+	top: 85px;
+	font-family: 微软雅黑;
+	left: 8px;
+}
+#industryIder .zhaoPai p{
+	display: block;
+	width: 180px;
+	position:absolute;
+	text-align: center;
+	top: 140px;
+	font-size: 14px;
+}
+#AppliedOne{
+	width: 637px;
+	height: 264px;
+	position: absolute;
+}
+#AppliedOne .font{
+	width: 290px;
+	height: 264px;
+	background: #fe0000;
+	float: left;
+	padding-left: 42px;
+}
+#AppliedOne .font a{
+	color: #fff;
+}
+#AppliedOne .font h1{
+	width: 185px;
+	height: 32px;
+	padding-left: 30px;
+	font-size:25px;
+	line-height: 30px;
+	font-family: 微软雅黑;
+	background: url(../imges/index.png) no-repeat 0px -48px;
+	color: #fff;
+	margin-top: 34px;
+}
+#AppliedOne .font p a{
+	color: #fff;
+}
+#AppliedOne .font p{
+	width: 230px;
+	margin-top: 18px;
+	font-weight: 600;
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+#AppliedOne .font .two{
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+#AppliedOne .img{
+	width: 305px;
+	height: 264px;
+	float: left;
+}
+#AppliedOne .img img{
+	width: 305px;
+	height: 264px;
+}
+/*行业方案右侧内容2例*/
+#Appliedtwo{
+	width: 637px;
+	height: 264px;
+	position: absolute;
+}
+#Appliedtwo .font{
+	width: 290px;
+	height: 264px;
+	background: #fe0000;
+	float: left;
+	padding-left: 42px;
+}
+#Appliedtwo .font a{
+	color: #fff;
+}
+#Appliedtwo .font h1{
+	width: 185px;
+	height: 32px;
+	padding-left: 30px;
+	font-size:25px;
+	line-height: 30px;
+	font-family: 微软雅黑;
+	background: url(../imges/index.png) no-repeat 0px -48px;
+	color: #fff;
+	margin-top: 34px;
+}
+#Appliedtwo .font p a{
+	color: #fff;
+}
+#Appliedtwo .font p{
+	width: 230px;
+	margin-top: 18px;
+	font-weight: 600;
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+#Appliedtwo .font .two{
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+#Appliedtwo .img{
+	width: 305px;
+	height: 264px;
+	float: left;
+}
+#Appliedtwo .img img{
+	width: 305px;
+	height: 264px;
+	}
+/*行业解决方案右侧*/
+#industryIder .AppLiedtHome{
+	position: absolute;
+	width: 198px;
+	height: 264px;
+	left:822px;
+	z-index: 4;
+	background: #dee3df;
+}
+#industryIder .AppLiedtHome h2{
+	display: block;
+	width: 100px;
+	padding-left: 28px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #6b6868;
+	font-family: 微软雅黑;
+	position: absolute;
+	top: 32px;
+	left: 25px;
+	background: url(../imges/index.png) no-repeat -1px -82px;
+}
+#industryIder .AppLiedtHome ul{
+	position: absolute;
+	left:27px;
+	top:80px;
+}
+#industryIder .AppLiedtHome li{
+	list-style: none;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	margin-top: 12px;
+}
+#industryIder .AppLiedtHome a{
+	color: #252424;
+}
+#industryIder .AppLiedtHome a:hover{
+	color: #e90505;
+}
+/*行业方案结束*/
+/*3/2中部结束*/
+/*3/3开始*/
+/*产品展示*/
+#porduct{
+	width: 100%;
+	height: 462px;
+	margin: 0 auto;
+}
+#porduct .porductName{
+	width: 100%;
+	height: 162px;
+	background: url(../imges/1001.jpg);
+	position: relative;
+}
+#porduct .porductName h2{
+	font-size: 42px;
+	font-weight: 500;
+	position: absolute;
+	color: #fff;
+	top: 65px;
+	font-family: 微软雅黑;
+	left: 8px;
+	letter-spacing: 3px;
+}
+#porduct .porductName p{
+	font-size: 1em;
+	position: absolute;
+	top: 120px;
+	left: 8px;
+	color: #fff;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}
+#porduct .porductName span a {
+	color: #fff;
+
+}
+#porduct .porductName span{
+	direction: block;
+	font-size: 15px;
+	width: 32px;
+	height: 18px;
+	line-height:18px; 
+	padding-right: 35px;
+	position: absolute;
+	top: 136px;
+	left: 920px;
+}
+#porduct .porductName span div{
+	width: 15px;
+	height: 15px;
+	background:url(../imges/index.png) no-repeat -490px -6px;
+	position: absolute;
+	top: 4px;
+	left: 33px;
+}
+@keyframes hove{
+	0%{left:33px;}
+	20%{
+		left: 42px;
+	}
+	40%{
+		left: 33px;
+	}
+	60%{
+		left: 42px;
+	}
+	80%{
+		left: 33px;
+	}
+	100%{
+		left: 42px;
+	}
+}
+#porduct .porductName span:hover div{
+	animation:hove 4s;
+	+left:42px;
+}
+#porduct .porductName span a:hover{
+	color: #c6c1c3;
+}
+/*产品展示轮播*/
+#productPlay{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: #dee3df;
+	overflow: hidden;
+}
+
+#productPlay div{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+}
+#productPlay div a{
+	display: block;
+	float: left;
+	width: 24%;
+	height: 100%;
+	margin: 2px;
+	background: #fff;
+	position: relative;
+}
+#productPlay div a img{
+	width: 100%;
+}
+
+#productPlay div a span{
+	display: block;
+	width: 100%;
+	height: 14%;
+	background: #5c5c56;
+	position: absolute;
+	top: 86%;
+	color: #fff;
+	font-family: 微软雅黑;
+	text-align: center;
+	line-height: 40px;
+}
+#productPlay div a:hover span{
+	background-color: #e40114;
+}
+/*左右按钮*/
+#left,#right{
+	position: absolute;
+	display: block;
+	width: 35px;
+	height: 60px;
+	cursor: pointer;
+	z-index: 3;
+}
+#right{
+	background: url(../imges/index.png) no-repeat -220px 0px;
+	top: 40%;
+	right: 2px
+}
+#left{
+	background: url(../imges/index.png) no-repeat -285px 0px;
+	top:40%;
+	left: 2px;
+}
+#right:hover{
+	top:40%;
+	right: 4px
+}
+#left:hover{
+	top: 40%;
+	left: 4px
+}
+/*产品展示结束*/
+/*友情链接*/
+/*结尾介绍*/
+/*结尾介绍*/
+#Over{
+	width: 100%;
+	height: 360px;
+	background: #343333;
+}
+#Over .daoHan{
+	float: left;
+	background: none;
+	padding-left: 0px;
+	margin-right: 30px;
+}
+#Over .daoHan a{
+	color: #fff;
+}
+#Over .daoHan a:hover{
+	color: #a5a8aa;
+}
+#Over .daoHan .font{
+	font-weight: 600;
+}
+#Over .daoHan li{
+	margin-left: 0px;
+}
+#Over div{
+	width: 1020px;
+	height: 36px;
+	margin: 0 auto;
+}
+#Over ul{
+	float: right;
+	margin-top: 70px;
+	padding-left: 20px;
+	background: url(../imges/index.png) no-repeat -490px -305px;
+}
+#Over ul li{
+	color: #fff;
+	list-style: none;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 幼圆,Arial,微软雅黑;
+	margin: 20px;
+}
+#Over ul li a{
+	color: #fff;
+}
+#Over img{
+	width: 150px;
+	float: right;
+	margin-top: 92px;
+	margin-right: 30px;
+}

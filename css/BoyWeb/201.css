@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10001.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+#ChanPinBook{
+	width: 1020px;
+	margin:0 auto;
+	height: 2150px;
+	position: relative;
+}
+#ChanPinBook h1{
+	position: absolute;
+	font-size: 36px;
+	font-weight: 500;
+	color: #092cc4;
+	top: 90px;
+	left: 60px;
+	font-family: 微软雅黑;
+	letter-spacing: 5px;
+	border-bottom: 1px solid #b9bfc2;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 60px;
+	line-height: 60px;
+}
+.IMG{
+	width: 400px;
+}
+#ChanPinBook h3{
+	font-weight: 400;
+	font-size: 25px;
+	font-family: 微软雅黑;
+	letter-spacing: 3px;
+	position: absolute;
+	left:60px;
+}
+#ChanPinBook p{
+	width: 410px;
+	left:60px;
+	position: absolute;
+}
+#ChanPinBook div{
+	width: 960px;
+	height: 800px;
+	padding-left: 60px;
+	position: absolute;
+}
+#ChanPinBook table{
+	width: 700px;
+	position: absolute;
+	left:60px;
+}
+#ChanPinBook table tr{
+	height: 50px;
+}
+#ChanPinBook table tr td{
+	font-family: 微软雅黑;
+	padding-left: 20px;
+}
+#ChanPinBook .ImgTv{
+	position: absolute;
+	top: 80px;
+	left: 550px;
+	padding: 0px;
+	width: 400px;
+	height: 408px;
+}
+#ChanPinBook .ImgTv .IMG{
+	height: 358px;
+}
+#ChanPinBook .ImgTv div{
+	padding: 0px;
+}
+#ChanPinBook .ImgTv .TvBottom{
+	width: 400px;
+	height: 50px;
+	background: #6d6e6f
+}
+#ChanPinBook .ImgTv .TvBottom .box{
+	display: block;
+	height: 40px;
+	margin-top: 5px;
+	text-align: center;
+}
+#ChanPinBook .ImgTv .TvBottom .box img{
+	height: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+#ChanPinBook .ImgTv p{
+	width: 180px;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+	position: absolute;
+	top: 430px;
+	left:110px;
+	color: #fff;
+	font-weight: 550;
+	background: url(../../imges/index.png) no-repeat -320px -199px;
+	font-family: 微软雅黑;
+}

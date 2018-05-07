@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10004.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+/*方案头部部分*/

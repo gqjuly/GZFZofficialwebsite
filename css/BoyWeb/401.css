@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品详情*/
+#ChanPin{
+	width: 1020px;
+	height: 219px;
+	margin: 0 auto;
+	background: url(../../imges/10004.jpg) no-repeat;
+}
+#ChanPinTop{
+	width: 1020px;
+	height: 37px;
+	padding-top: 12px;
+	margin:0 auto;
+	background: url(../../imges/ChanPinTop.jpg) no-repeat;
+}
+#ChanPinTop p{
+	height: 20px;
+	margin-left: 20px;
+}
+#ChanPinTop p a{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 15px;
+}
+#ChanPinTop p a:hover{
+	color: #ec1515;
+}
+#ChanPinTop p span{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 18px;
+	background: url(../../imges/index.png) no-repeat -490px -28px;
+}
+/*新闻头部部分*/
+#New{
+	width: 1020px;
+	height: 600px;
+	margin:0 auto;
+	padding-top: 75px;
+}
+#New .TopName{
+	width: 1020px;
+	height: 310px;
+}
+#New .TopName img{
+	height: 310px;
+	float: left;
+	margin-right: 160px;
+}
+#New .TopName ul{
+	float: left;
+}
+#NewLun{
+	position: relative;
+}
+#NewLun span{
+	display: block;
+	width: 427px;
+	height: 30px;
+	position: absolute;
+	background: url(../../imges/new/son/06.png) no-repeat;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	top: 280px;
+}
+#NewLun span:hover{
+	color: red;
+}
+#New .TopName li{
+	list-style: none;
+	height: 50px;
+	border-bottom: 1px dashed  #333;
+	line-height: 45px;
+	font-size: 18px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+#New .TopName li a{
+	color: black;
+}
+#New .TopName li a:hover{
+	color: red;
+}
+#New .CenterName{
+	width: 1020px;
+	height:50px;
+	padding-top: 50px;
+}
+#New .CenterName h1{
+	color: red;
+	text-align: center;
+	border-bottom: 1px solid #a7a8a9;
+	height: 50px;
+}
+#New .CenterName h1 a{
+	color: red;
+}
+#New .BottomName{
+	width: 1020px;
+	height: 200px;
+	margin:0 auto;
+}
+#New .BottomName li{
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 30px;
+	font-size: 16px;
+	height: 40px;
+	border-bottom: 1px outset #7e8080;
+	line-height: 40px;
+}
+#New .BottomName li a:hover{
+	color: red;
+}
+#New .BottomName ul{
+	margin:20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#New .BottomName ul a{
+	color: #66696a;
+}
+#New .BottomName .left{
+	float: left;
+}
+#New .BottomName .right{
+	float: right;
+}
